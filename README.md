@@ -17,21 +17,21 @@
 
 ## 2. Análise do Problema
 
-**Contexto e Impacto Social:** 
+###Contexto e Impacto Social:###
 
-    O ecossistema de jogos online e plataformas de chat/comunicação como o Discord tornaram-se o principal ambiente de sociabilização para crianças e adolescentes. 
-    Contudo, incidentes recentes no Brasil demonstraram graves vulnerabilidades nesses ambientes: exposição a conteúdos inadequados, cooptagem para redes de automutilação, cyberbullying e extorsão.
-    Com a aprovação da Lei nº 15.211/2025 (ECA Digital), exigem que empresas garantam o controle real de idade. A abordagem tradicional — caixas de seleção onde o usuário marca "tenho mais de 18 anos" — é totalmente ineficaz, enquanto soluções invasivas de verificação (como upload de RG/CPF em servidores centralizados) violam gravemente a privacidade dos usuários e criam alvos valiosos para vazamentos de dados.
+O ecossistema de jogos online e plataformas de chat/comunicação como o Discord tornaram-se o principal ambiente de sociabilização para crianças e adolescentes. 
+Contudo, incidentes recentes no Brasil demonstraram graves vulnerabilidades nesses ambientes: exposição a conteúdos inadequados, cooptagem para redes de automutilação, cyberbullying e extorsão.
+Com a aprovação da Lei nº 15.211/2025 (ECA Digital), exigem que empresas garantam o controle real de idade. A abordagem tradicional — caixas de seleção onde o usuário marca "tenho mais de 18 anos" — é totalmente ineficaz, enquanto soluções invasivas de verificação (como upload de RG/CPF em servidores centralizados) violam gravemente a privacidade dos usuários e criam alvos valiosos para vazamentos de dados.
 
-**Causas Técnologicas do Problema** 
+###Causas Técnologicas do Problema###
 
-***1. Ineficácia dos Modelos Tradicionais:*** A utilização da autodeclaração (self-declaration), na qual o usuário informa sua idade sem comprovação, permite que menores burlem facilmente as restrições etárias.
+**1. Ineficácia dos Modelos Tradicionais:** A utilização da autodeclaração (self-declaration), na qual o usuário informa sua idade sem comprovação, permite que menores burlem facilmente as restrições etárias.
 
 **2. Riscos da Centralização de Dados:** A exigência de documentos e fotografias pessoais pode levar ao armazenamento de informações sensíveis em servidores, aumentando os riscos de vazamentos, acessos não autorizados e uso indevido de dados.
 
 **3. Vulnerabilidades no Reconhecimento Facial:** Sistemas de verificação facial podem ser burlados quando permitem que menores utilizem o rosto de pais ou responsáveis para validar suas contas, comprometendo a confiabilidade do processo de verificação de idade.
 
-**O que já existe e por que não basta**
+###O que já existe e por que não basta###
 
 **Verificação via Cartão de Crédito:** Exclui jovens vulneráveis que não têm cartão e não impede o uso indevido do cartão dos pais.
 
