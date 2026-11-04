@@ -22,7 +22,9 @@ Com a aprovação da Lei nº 15.211/2025 (ECA Digital), exigem que empresas gara
 
 **Causas Técnologicas do Problema** 
 **1. Ineficácia dos Modelos Tradicionais:** A utilização da autodeclaração (self-declaration), na qual o usuário informa sua idade sem comprovação, permite que menores burlem facilmente as restrições etárias.
+
 **2. Riscos da Centralização de Dados:** A exigência de documentos e fotografias pessoais pode levar ao armazenamento de informações sensíveis em servidores, aumentando os riscos de vazamentos, acessos não autorizados e uso indevido de dados.
+
 **3. Vulnerabilidades no Reconhecimento Facial:** Sistemas de verificação facial podem ser burlados quando permitem que menores utilizem o rosto de pais ou responsáveis para validar suas contas, comprometendo a confiabilidade do processo de verificação de idade.
 
 **O que já existe e por que não basta?**
