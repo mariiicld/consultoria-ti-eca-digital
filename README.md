@@ -2,7 +2,8 @@
 ## Projeto de Consultoria em Design Profissional  
   
 ## 1. Abertura  
-**Nome da Consultoria: ConectAge**  
+**Nome da Consultoria:** ConectAge
+-----------------------------------
 **Dossiê Escolhido:** Dossiê 7 - Verificação de Idade e o ECA Digital.  
 ------------------------------------------------------------------------
 **Recorte do Problema:** Verificação de idade em plataformas de jogos online e ambientes de comunicação interativa por voz e texto, com foco em comunidades virtuais semelhantes ao Discord e servidores de jogos multiplayer. Esses ambientes são os que ampliam os riscos para menores, como a possibilidade de interação com desconhecidos, a existência de servidores públicos, a comunicação em tempo real por voz e texto, as dificuldades de fiscalização de comunidades privadas e a exposição de crianças e adolescentes a contatos e conteúdos inadequados.  
