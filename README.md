@@ -5,11 +5,11 @@
 **Nome da Consultoria: ConectAge**  
 **Dossiê Escolhido:** Dossiê 7 - Verificação de Idade e o ECA Digital.  
 **Recorte do Problema:** Verificação de idade em plataformas de jogos online e ambientes de comunicação interativa por voz e texto, com foco em comunidades virtuais semelhantes ao Discord e servidores de jogos multiplayer. Esses ambientes são os que ampliam os riscos para menores, como a possibilidade de interação com desconhecidos, a existência de servidores públicos, a comunicação em tempo real por voz e texto, as dificuldades de fiscalização de comunidades privadas e a exposição de crianças e adolescentes a contatos e conteúdos inadequados.  
-**Integrantes:**  
-Gabriel da Silva Cesário - RGM: | Área: Ciência de Dados | GitHub:   
-Mariana Calderari - RGM: 48100072 | Área: Engenharia de Dados | GitHub:   
-Vitor Camilo de Santana - RGM: | Área: CiberSegurança | GitHub:   
-###   
+    **Integrantes:**  
+    Gabriel da Silva Cesário - RGM: | Área: Ciência de Dados | GitHub:   
+    Mariana Calderari - RGM: 48100072 | Área: Engenharia de Dados | GitHub:   
+    Vitor Camilo de Santana - RGM: | Área: CiberSegurança | GitHub:   
+
 ## 2. Análise do Problema  
 ## Contexto e Impacto Social:  
   
@@ -31,8 +31,8 @@ Por outro lado, a utilização de documentos pessoais e dados biométricos para 
   
 ## O que já existe e por que não basta  
   
-1. **Verificação por Cartão de Crédito: **Utiliza a existência de um cartão bancário como indicativo de maioridade, mas apresenta limitações de acessibilidade e confiabilidade. Muitos adolescentes não possuem cartões próprios, especialmente aqueles em situação de vulnerabilidade socioeconômica. Além disso, o uso de cartões pertencentes aos pais ou responsáveis pode permitir que menores contornem a restrição, sem que a plataforma consiga confirmar quem está realmente utilizando o serviço.  
-2. **Biometria Facial Isolada: **A utilização do reconhecimento facial pode facilitar a estimativa ou confirmação da idade, mas não garante, por si só, que a pessoa verificada seja a mesma que utilizará a conta. Um menor pode solicitar que um adulto realize a validação em seu lugar, utilizando o resultado para obter acesso à plataforma. Outro problema envolve a privacidade: imagens faciais e informações biométricas exigem proteção rigorosa, pois seu armazenamento e tratamento inadequados podem resultar em exposição de dados sensíveis e riscos permanentes aos usuários.  
+1. **Verificação por Cartão de Crédito:** Utiliza a existência de um cartão bancário como indicativo de maioridade, mas apresenta limitações de acessibilidade e confiabilidade. Muitos adolescentes não possuem cartões próprios, especialmente aqueles em situação de vulnerabilidade socioeconômica. Além disso, o uso de cartões pertencentes aos pais ou responsáveis pode permitir que menores contornem a restrição, sem que a plataforma consiga confirmar quem está realmente utilizando o serviço.  
+2. **Biometria Facial Isolada:** A utilização do reconhecimento facial pode facilitar a estimativa ou confirmação da idade, mas não garante, por si só, que a pessoa verificada seja a mesma que utilizará a conta. Um menor pode solicitar que um adulto realize a validação em seu lugar, utilizando o resultado para obter acesso à plataforma. Outro problema envolve a privacidade: imagens faciais e informações biométricas exigem proteção rigorosa, pois seu armazenamento e tratamento inadequados podem resultar em exposição de dados sensíveis e riscos permanentes aos usuários.  
   
 ## 3. Proposta Técnologica  
 ### Proposta Tecnológica e Arquitetura  
@@ -41,7 +41,7 @@ Por outro lado, a utilização de documentos pessoais e dados biométricos para 
 
 Para superar os desafios de segurança e privacidade, a arquitetura padroniza o uso de credenciais emitidas por autoridades confiáveis, o ecossistema OpenID4VP para transporte de apresentações, circuitos zk-SNARKs para provas criptográficas de elegibilidade sem exposição de dados civis, e um mecanismo híbrido de controle de tokens, sessões e revogação. A integração com plataformas consumidoras pressupõe a existência de APIs ou mecanismos de consentimento suportados pelas respectivas plataformas, garantindo a aplicação efetiva das regras de acesso.
 
-#### 3.1 Faixas Etárias e Regras Adotadas**  
+#### 3.1 Faixas Etárias e Regras Adotadas 
 
 | Faixa Etária | Regra no GuardianGate-ZKP | Fundamentação Legal / Decisão de Projeto |
 | ------------------ | ------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------- |
