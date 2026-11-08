@@ -315,13 +315,13 @@ ampliar.**
 * **Plano de Desenvolvimento Profissional** (Metas SMART):
 
 - **Específica (S):**
-- 
+  
 - **Mensurável (M):**
-- 
-- **Atingível (A):** 
-
-- **Relevante (R):** 
-
+  
+- **Atingível (A):**
+  
+- **Relevante (R):**
+  
 - **Temporal (T):**
   
 * **Feedback Mariana Calderari:**
