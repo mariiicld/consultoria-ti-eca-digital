@@ -367,22 +367,32 @@ ampliar.**
 ## 9. Capítulos Individuais
 ### 9.1 Capítulo Individual — Gabriel da Silva Cesário (Ciência de Dados)
 
-* **Papel no Projeto:** 
-* **Plano de Desenvolvimento Profissional** (Metas SMART):
+* ** Papel no Projeto: Ciência de Dados & Ética Algorítmica**
+No desenvolvimento da nossa solução de verificação de idade e moderação (Dossiê 7), meu foco principal foi a criação, treinamento e avaliação dos modelos de detecção de anomalias operacionais dentro do fluxo de verificação.
 
-- **Específica (S):**
-  
-- **Mensurável (M):**
-  
-- **Atingível (A):**
-  
-- **Relevante (R):**
-  
-- **Temporal (T):**
-  
-* **Feedback Mariana Calderari:**
+Além disso, atuei diretamente na auditoria do sistema para garantir a ausência de viés algorítmico. Como o sistema lida com o cumprimento do ECA Digital e atende crianças, adolescentes e responsáveis de diferentes
+perfis, era indispensável garantir que os modelos de checagem e detecção funcionassem com a mesma precisão e equidade para diferentes faixas populacionais, tons de pele e condições de iluminação.
 
-* **Feedback Vitor Camilo de Santana:**
+(Todo o progresso, experimentos de modelos e pipelines de validação estão registrados e confirmados via commits e Pull Requests no repositório do projeto no GitHub).
+
+* **Plano de Desenvolvimento Profissional (Metas SMART)**
+Para continuar evoluindo após as entregas do projeto e expandir minhas competências na área de dados voltada à segurança, estruturei meu plano de carreira no modelo SMART:
+
+
+- Específica (S) **: Aprofundar meus conhecimentos em Aprendizado de Máquina com foco em Privacidade (Privacy-Preserving Machine Learning e Federated Learning), entendendo como treinar modelos seguros sem expor dados
+sensíveis de usuários.
+
+
+-  **Mensurável (M) **: Concluir 2 cursos especializados na plataforma Coursera e desenvolver/publicar 1 projeto prático open-source no GitHub aplicando aprendizagem federada.
+
+
+- Atingível (A) **: Organizar uma rotina de estudo dedicada de 5 horas semanais nos fins de semana, ao longo de 5 meses.
+
+
+- ** Relevante (R) **: Aumentar minha empregabilidade e diferencial no mercado de Ciência de Dados, especializando-me em ética algorítmica, privacidade de dados e segurança da informação.
+
+
+-  **emporal (T) **: Conclusão total das etapas e publicação do projeto no repositório no prazo limite de 6 meses.
 
 ### 9.2 Capítulo Individual — Mariana Calderari (Engenharia de Dados)
 
@@ -390,9 +400,11 @@ ampliar.**
 
 * **Plano de Desenvolvimento Profissional** (Metas SMART):
 
-- **Específica (S):** Aprofundar meus conhecimentos em Engenharia de Dados, com foco no desenvolvimento de pipelines ETL/ELT, processamento de dados em tempo real, banco de dados Redis e serviços de computação em nuvem, especialmente AWS.
+- **Específica (S):** Aprofundar meus conhecimentos em Engenharia de Dados, com foco no desenvolvimento de pipelines ETL/ELT, processamento de dados em tempo real, banco de dados Redis e serviços de computação em nuvem,
+-  especialmente AWS.
 
-- **Mensurável (M):** Concluir pelo menos 2 cursos relacionados à área e desenvolver 1 projeto prático no GitHub envolvendo ingestão, processamento e armazenamento temporário de dados, com aplicação de políticas TTL e descarte automático de informações.
+- **Mensurável (M):** Concluir pelo menos 2 cursos relacionados à área e desenvolver 1 projeto prático no GitHub envolvendo ingestão, processamento e armazenamento temporário de dados, com aplicação de políticas TTL e
+descarte automático de informações.
 
 - **Atingível (A):** Dedicar aproximadamente 5 horas semanais aos estudos, utilizando cursos online, documentação oficial e desenvolvimento de projetos práticos para consolidar os conhecimentos adquiridos.
 
