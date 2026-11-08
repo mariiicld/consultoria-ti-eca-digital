@@ -179,7 +179,7 @@ Os registros de aplicação não deverão armazenar credenciais completas, docum
 
 Caso o Redis ou a API verificadora fiquem indisponíveis, novas autorizações e verificações não serão aprovadas automaticamente. O sistema adotará comportamento de falha segura (fail closed), mantendo as restrições até que a validação possa ser realizada novamente.
 
-#### 3.4 Escolhas Técnicas e Justificativas**  
+#### 3.4 Escolhas Técnicas e Justificativas  
 * **Por que utilizar ZKP:** As Provas de Conhecimento Zero permitem demonstrar que determinadas condições são verdadeiras sem revelar diretamente as informações utilizadas como base da comprovação. Entretanto, a confiabilidade depende da validade da credencial emitida e da segurança do mecanismo criptográfico.
 
 * **Esquema zk-SNARKs:** A tecnologia foi escolhida como proposta para permitir provas compactas e verificações eficientes. O circuito criptográfico deverá validar as assinaturas e as condições necessárias, como maioridade, responsabilidade legal e autorização parental, considerando também a atualização das chaves dos emissores e o estado das credenciais.
