@@ -352,7 +352,6 @@ ampliar.**
 ### 9.3 Capítulo Individual — Vitor Camilo de Santana (CiberSegurança)
 
 * **Papel no Projeto:** Responsável pela análise e definição das diretrizes de cibersegurança aplicadas à solução digital de verificação de idade, considerando os riscos relacionados ao tratamento de dados pessoais, especialmente aqueles pertencentes a crianças e adolescentes. Sua atuação envolve a elaboração de estratégias para proteger as informações dos usuários, prevenir acessos não autorizados e garantir a integridade e a confidencialidade dos dados durante todo o processo de validação.
-
 Outra responsabilidade importante é estabelecer diretrizes de conformidade com a Lei Geral de Proteção de Dados (LGPD), considerando os princípios de finalidade, necessidade, transparência, segurança e melhor interesse da criança e do adolescente. Também são consideradas medidas de proteção para as APIs utilizadas na comunicação entre os componentes da plataforma, incluindo autenticação, controle de acesso, criptografia e monitoramento de atividades suspeitas.
 
 * **Plano de Desenvolvimento Profissional** (Metas SMART):
