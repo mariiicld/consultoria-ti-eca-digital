@@ -53,7 +53,7 @@ Para superar os desafios de segurança e privacidade, a arquitetura padroniza o 
 | 17 anos | Faixa etária validada por credencial verificável. Não há obrigação geral de vinculação da conta prevista no art. 24, mas permanecem aplicáveis as salvaguardas de interação previstas para jogos abrangidos pelo art. 21. | Distinção entre a regra de vinculação até 16 anos e as demais obrigações de proteção de adolescentes. |
 | 18 anos ou mais | Prova criptográfica própria de maioridade (idade >= 18), sem vínculo parental. | Acesso liberado a ambientes restritos a adultos com privacidade. |
   
-#### 3.2 Como Funciona para o Usuário (Passo a Passo)**  
+#### 3.2 Como Funciona para o Usuário (Passo a Passo)  
 **1. Preparação Única (Emissão de Credenciais)**  
 * **Emissão Confiável:** O adulto e o responsável obtêm suas credenciais digitais junto a uma autoridade emissora confiável (adotando o Gov.br como integração pretendida e arquiteturalmente planejada, cuja implementação efetiva depende de autorização institucional, acordos de interoperabilidade e disponibilidade de infraestrutura federada). O emissor valida em registros oficiais a filiação, a guarda/tutela e a data de nascimento, assinando digitalmente a credencial verificável. 
 * **Comprovação do Vínculo:** Para emitir a credencial de responsabilidade parental, a entidade emissora deverá verificar a relação entre o menor e o responsável por meio de registros oficiais ou documentos legalmente aceitos, considerando também situações de guarda ou tutela. Após a validação, emitirá uma credencial assinada digitalmente, vinculando a autorização à relação jurídica comprovada.
