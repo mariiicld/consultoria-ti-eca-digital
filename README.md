@@ -351,19 +351,20 @@ ampliar.**
 
 ### 9.3 Capítulo Individual — Vitor Camilo de Santana (CiberSegurança)
 
-* **Papel no Projeto:**
+* **Papel no Projeto:** Responsável pela análise e definição das diretrizes de cibersegurança aplicadas à solução digital de verificação de idade, considerando os riscos relacionados ao tratamento de dados pessoais, especialmente aqueles pertencentes a crianças e adolescentes. Sua atuação envolve a elaboração de estratégias para proteger as informações dos usuários, prevenir acessos não autorizados e garantir a integridade e a confidencialidade dos dados durante todo o processo de validação.
+Outra responsabilidade importante é estabelecer diretrizes de conformidade com a Lei Geral de Proteção de Dados (LGPD), considerando os princípios de finalidade, necessidade, transparência, segurança e melhor interesse da criança e do adolescente. Também são consideradas medidas de proteção para as APIs utilizadas na comunicação entre os componentes da plataforma, incluindo autenticação, controle de acesso, criptografia e monitoramento de atividades suspeitas.
 
 * **Plano de Desenvolvimento Profissional** (Metas SMART):
 
-- **Específica (S):**
+- **Específica (S):** Desenvolver conhecimentos avançados em cibersegurança, com foco em proteção de dados pessoais, segurança de APIs, análise de vulnerabilidades, arquitetura de sistemas seguros e conformidade com a LGPD. Buscar uma certificação profissional reconhecida na área, como CompTIA Security+, aprofundando também os estudos sobre criptografia e tecnologias de preservação da privacidade, como Zero-Knowledge Proofs.
 
-- **Mensurável (M):**
+- **Mensurável (M):** Concluir pelo menos dois cursos especializados em segurança da informação e proteção de dados, realizar dez simulados preparatórios para a certificação CompTIA Security+, buscando alcançar uma média mínima de 85% de acertos, e desenvolver um projeto prático documentado no GitHub envolvendo análise de vulnerabilidades, proteção de APIs e aplicação de boas práticas de segurança.
 
-- **Atingível (A):**
+- **Atingível (A):** Estabelecer uma rotina de estudos de quatro a cinco horas semanais durante seis meses, utilizando cursos online, documentação técnica, materiais especializados e laboratórios práticos de cibersegurança. Aplicar os conhecimentos adquiridos por meio de pequenos projetos, exercícios de identificação de vulnerabilidades e estudos de casos relacionados à proteção de dados.
 
-- **Relevante (R):**
+- **Relevante (R):** Fortalecer a formação profissional para atuar na área de Segurança da Informação, especialmente em atividades relacionadas à proteção de dados, segurança de aplicações e governança de TI. O desenvolvimento dessas competências permitirá contribuir para a construção de sistemas digitais mais seguros, confiáveis e alinhados às exigências da LGPD e às necessidades de proteção de crianças e adolescentes no ambiente digital.
 
-- **Temporal (T):**
+- **Temporal (T):** Concluir os cursos e o projeto prático em até seis meses, realizar a preparação completa para a certificação e buscar sua aprovação em um prazo máximo de dez meses.
 
 * **Feedback Gabriel da Silva Cesário:**
 
