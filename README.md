@@ -9,9 +9,9 @@
 **Recorte do Problema:** Verificação de idade em plataformas de jogos online e ambientes de comunicação interativa por voz e texto, com foco em comunidades virtuais semelhantes ao Discord e servidores de jogos multiplayer. Esses ambientes são os que ampliam os riscos para menores, como a possibilidade de interação com desconhecidos, a existência de servidores públicos, a comunicação em tempo real por voz e texto, as dificuldades de fiscalização de comunidades privadas e a exposição de crianças e adolescentes a contatos e conteúdos inadequados.  
 
     Integrantes:
-    Gabriel da Silva Cesário - RGM: | Área: Ciência de Dados | GitHub:   
-    Mariana Calderari - RGM: 48100072 | Área: Engenharia de Dados | GitHub:   
-    Vitor Camilo de Santana - RGM: | Área: CiberSegurança | GitHub:   
+    Gabriel da Silva Cesário - RGM: 47784105 | Área: Ciência de Dados | GitHub: https://github.com/gabrielsilce
+    Mariana Calderari - RGM: 48100072 | Área: Engenharia de Dados | GitHub: https://github.com/mariiicld  
+    Vitor Camilo de Santana - RGM: 47807458 | Área: CiberSegurança | GitHub: https://github.com/vitorcamilodesantana-del 
 
 ## 2. Análise do Problema  
 ## Contexto e Impacto Social:  
