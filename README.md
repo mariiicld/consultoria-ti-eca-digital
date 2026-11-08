@@ -311,6 +311,25 @@ ampliar.**
 ## 9. Capítulos Individuais
 ### 9.1 Capítulo Individual — Gabriel da Silva Cesário (Ciência de Dados)
 
+* **Papel no Projeto:** 
+* **Plano de Desenvolvimento Profissional** (Metas SMART):
+
+- **Específica (S):**
+- 
+- **Mensurável (M):**
+- 
+- **Atingível (A):** 
+
+- **Relevante (R):** 
+
+- **Temporal (T):**
+  
+* **Feedback Mariana Calderari:**
+
+* **Feedback Vitor Camilo de Santana:**
+
+### 9.2 Capítulo Individual — Mariana Calderari (Engenharia de Dados)
+
 * **Papel no Projeto:** Responsável pela estruturação do fluxo de dados responsável por receber, organizar e processar, em tempo real, os eventos relacionados à verificação de idade e ao consentimento parental. Minha atuação está voltada à definição dos processos de ingestão e processamento, ao gerenciamento do armazenamento temporário em Redis e ao estabelecimento de políticas de expiração (TTL) e descarte automático (data purge). Essas atividades contribuem para manter o sistema eficiente, com baixa latência e tratamento adequado das informações, respeitando os princípios de privacidade e proteção de dados estabelecidos pela LGPD.
 
 * **Plano de Desenvolvimento Profissional** (Metas SMART):
@@ -324,26 +343,6 @@ ampliar.**
 - **Relevante (R):** Desenvolver competências técnicas necessárias para atuar profissionalmente como Engenheira de Dados, especialmente na construção de pipelines eficientes, escaláveis e seguros, capazes de processar grandes volumes de informações sem comprometer a privacidade dos usuários.
 
 - **Temporal (T):** Concluir os cursos e desenvolver o projeto prático no prazo de 6 meses, utilizando os resultados como parte do meu portfólio profissional.
-
-* **Feedback Mariana Calderari:**
-
-* **Feedback Vitor Camilo de Santana:**
-
-### 9.2 Capítulo Individual — Mariana Calderari (Engenharia de Dados)
-
-* **Papel no Projeto:**
-
-* **Plano de Desenvolvimento Profissional** (Metas SMART):
-
-- **Específica (S):**
-
-- **Mensurável (M):**
-
-- **Atingível (A):**
-
-- **Relevante (R):**
-
-- **Temporal (T):**
 
 * **Feedback Gabriel da Silva Cesário:**
 
