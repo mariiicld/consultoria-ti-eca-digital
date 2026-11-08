@@ -390,7 +390,8 @@ descarte automático de informações.
 
 - **Temporal (T):** Concluir os cursos e desenvolver o projeto prático no prazo de 6 meses, utilizando os resultados como parte do meu portfólio profissional.
 
-* **Feedback Gabriel da Silva Cesário:**
+* **Feedback Gabriel da Silva Cesário:** A Mariana foi responsável pela arquitetura e estruturação dos fluxos de dados do sistema. Graças à organização dos fluxos em tempo real e ao uso inteligente do
+*  Redis com as políticas de TTL e descarte automático , garantiu ao sistema alta performance, baixa latência e rigorosa observância aos preceitos da LGPD.
 
 * **Feedback Vitor Camilo de Santana:**
 
@@ -411,7 +412,7 @@ Outra responsabilidade importante é estabelecer diretrizes de conformidade com 
 
 - **Temporal (T):** Concluir os cursos e o projeto prático em até seis meses, realizar a preparação completa para a certificação e buscar sua aprovação em um prazo máximo de dez meses.
 
-* **Feedback Gabriel da Silva Cesário:**
+* **Feedback Gabriel da Silva Cesário:** A atuação do Vitor foi determinante para a segurança e a conformidade jurídica da solução. A definição rigorosa das diretrizes de cibersegurança, a proteção avançada das APIs e a estrita observância à LGPD — com foco especial na proteção de crianças e adolescentes — garantiram a integridade, a confidencialidade e a confiabilidade de todo o fluxo de verificação de idade
 
 * **Feedback Mariana Calderari:**
 
