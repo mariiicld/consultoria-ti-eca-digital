@@ -290,6 +290,62 @@ base na aula de TI Verde.**
 **Quem mantém e quem paga depois
 do primeiro ano.**
 
+## 6. Sustentabilidade
+#### 6.1 Impacto Ambiental e Práticas de TI Verde
+
+A infraestrutura e o software da solução foram desenhados com base nos princípios de TI Verde e Software Verde (Green Software Foundation), reconhecendo que a computação digital gera emissões reais de carbono e demanda de recursos energéticos e hídricos:
+
+**Computação em Borda (Edge Computing) e Redução de Carga de Processamento:**
+A geração das provas criptográficas ZKP é processada localmente nos dispositivos dos usuários. Isso evita o tráfego contínuo e a sobrecarga computacional em servidores centrais, diminuindo a demanda de CPUs/GPUs nos data centers e reduzindo a pegada de carbono por requisição.
+
+**Infraestrutura Nuvem Hyperscale Eficiente (Otimização de PUE):**
+A camada de API do verificador é hospedada exclusivamente em provedores de nuvem hyperscale comprometidos com o uso de 100% de energia renovável (eólica e solar) e com baixo PUE (Power Usage Effectiveness). Isso reduz o consumo elétrico associado aos sistemas de refrigeração e servidores em comparação com data centers convencionais.
+
+**Software Sustentável e Mitigação de Lixo Eletrônico (E-Waste):**
+
+**Arquitetura Event-Driven sem Polling:** Utilização de conexões assíncronas WebSockets e mensageria orientada a eventos para eliminar chamadas redundantes (HTTP polling), reduzindo o desperdício de ciclos de processamento e banda.
+
+**Preservação da Vida Útil do Hardware:** Algoritmos leves de verificação minimizam a carga térmica nos smartphones dos usuários e servidores, retardando o desgaste dos componentes eletrônicos e combatendo o acúmulo de lixo eletrônico.
+
+**Métricas de Carbono e Transparência:**
+Adoção das bibliotecas da Green Web Foundation no ambiente de CI/CD para medir e auditar as emissões estimadas por requisição, mantendo um arquivo público na raiz do domínio da solução.
+
+#### 6.2 Sustentabilidade Financeira (Manutenção Pós-Ano 1)
+
+**Modelo B2B (Business to Business):**
+A plataforma adota um modelo de licenciamento de API cobrado diretamente das empresas operadoras de jogos online, plataformas de comunicação e comunidades virtuais (ex.: Discord, Epic Games, Roblox). As famílias e usuários finais têm acesso 100% gratuito.
+
+**Estrutura de Custo por Volume de Verificações:**
+A manutenção do serviço a partir do segundo ano é custeada por contratos corporativos baseados em pacotes de chamadas de verificação de sessão (pay-per-verification).
+
+**Custos Operacionais Enxutos:**
+Devido à arquitetura descentralizada (onde o custo de armazenamento de credenciais fica no dispositivo do usuário), os custos operacionais da consultoria reduzem-se à manutenção da API Verificadora efêmera, auditorias de segurança e suporte a usuários.
+
+## 7. Impacto Esperado
+
+#### Indicadores Mensuráveis
+
+**Redução de Acessos Indevidos:** Redução de 90% na presença de menores não autorizados em canais de voz/chat com classificação indicativa restrita.
+
+**Eficiência da Verificação:** Tempo médio de aprovação pelo responsável inferior a 15 segundos.
+
+**Segurança da Informação:** 0 incidentes de vazamento de dados de menores ou responsáveis associados ao sistema.
+
+#### Escuta dos Usuários e Planos de Contingência
+
+**Plano de Escuta:** Pesquisa de satisfação contínua dentro dos apps e canal de diálogo com associações de pais e defensores dos direitos da infância.
+
+**Contingência:** Caso ocorra instabilidade nos serviços do Gov.br, o sistema chaveia automaticamente para atestação via chaves descentralizadas alternativas (Web3 DIDs) previamente cadastradas.
+
+## 8. Quadro de Decisões do Projeto
+
+| # | Decisão do Projeto | Alternativas Consideradas | Justificativa da Escolha |
+|---|---|---|---|
+| 1 | Arquitetura ZKP com Consentimento Parental e Painel Educativo | Biometria Facial Simples no Login | Elimina a burla em que o menor usa o rosto do responsável, conscientiza os pais dos riscos e evita armazenamento invasivo de biometria. |
+| 2 | Computação em Borda (Edge) no App Mobile | Processamento em Nuvem Centralizado | Reduz custos de infraestrutura, aumenta a privacidade e melhora a sustentabilidade energética (TI Verde). |
+| 3 | Autenticação Federada via Gov.br | Banco de Dados Próprio com Fotos de RG | Elimina a necessidade de a consultoria guardar documentos de cidadãos, utilizando a infraestrutura pública existente. |
+| 4 | Modelo Comercial B2B (Plataformas Pagam) | Cobrança por Usuário / Anúncios | Garante acesso universal e gratuito para famílias de qualquer classe social. |
+| 5 | Tokens de Sessão Efêmeros (Curta Duração) | Tokens de Acesso Permanentes | Impede que a atividade de navegação do usuário seja rastreada entre diferentes jogos ou servidores. |
 ## 7. Impacto Esperado
 
 **Indicadores mensuráveis, com
