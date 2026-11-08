@@ -196,6 +196,10 @@ Caso o Redis ou a API verificadora fiquem indisponíveis, novas autorizações e
 
 * **Conformidade e Privacidade:** A proposta considera os princípios de finalidade, necessidade, segurança e prevenção da LGPD, além das exigências de proteção de crianças e adolescentes previstas no ECA Digital. A minimização do armazenamento, a proteção das credenciais e a possibilidade de revogação são medidas de segurança e privacidade que deverão ser acompanhadas de controles técnicos, organizacionais e jurídicos.
 
+#### 3.5 Atuação por Área de Carreira no Projeto
+
+* **Cibersegurança (Vitor Camilo de Santana):** Responsável pela modelagem de ameaças (Threat Modeling) e pela definição dos mecanismos de segurança criptográfica, incluindo a utilização de provas de conhecimento zero (zk-SNARKs). Atua na proteção das credenciais, na validação das provas criptográficas e na implementação de mecanismos contra ataques de repetição (Replay Attacks), garantindo a autenticidade das operações e contribuindo para a proteção das informações dos usuários, em conformidade com os requisitos de segurança e privacidade da LGPD e do ECA Digital (Lei nº 15.211/2025).
+
 ### 4. Análise Ética
 #### 4.1 Matriz de Riscos Éticos
 
@@ -253,7 +257,6 @@ A solução resolve o gargalo de privacidade do ECA Digital (Lei 15.211/2025) e 
 
 "Na ConectAge, proteger nossas crianças no ambiente digital não significa abrir mão da privacidade das famílias. Nossa nova solução para jogos online e plataformas como o Discord conecta o consentimento dos pais à verificação de idade sem armazenar fotos, RG ou históricos de navegação. Utilizando criptografia de Prova de Zero Conhecimento e autenticação legal via Gov.br com alertas de riscos informados, garantimos o cumprimento rigoroso do ECA Digital, mantendo os ambientes virtuais seguros para os jovens e totalmente privados para todos."
 
-###   
 ## 5. Acessibilidade e Inclusão Digital  
 #### 5.1 Quem pode ficar de fora?  
 **1. Pessoas com Deficiência Visual ou Baixa Visão:** Responsáveis ou menores que utilizam leitores de tela e navegação por voz podem ser excluídos se a interface do aplicativo de carteira (*Wallet App*) não seguir diretrizes estritas de marcação acessível.  
