@@ -106,7 +106,7 @@ Para superar os desafios de segurança e privacidade, a arquitetura padroniza o 
 
 6. **Revogação Contínua:** O sistema diferencia a revogação da credencial-raiz (emitida pela autoridade) da revogação de permissões pontuais (realizada pelo responsável). O responsável pode alterar as permissões na carteira a qualquer momento, atualizando a versão da autorização no serviço de gestão e invalidando o token ativo.
 
-#### 3.3 Arquitetura Técnica e Fluxo de Dados**  
+#### 3.3 Arquitetura Técnica e Fluxo de Dados
 **Componentes do Sistema**  
 * **Emissor de Credenciais (Autoridade Federada):** Entidade responsável por verificar informações de identidade, idade e responsabilidade legal em fontes confiáveis e emitir credenciais digitais assinadas. O Gov.br é considerado uma possibilidade de integração futura, não uma integração já estabelecida pelo projeto.
 
