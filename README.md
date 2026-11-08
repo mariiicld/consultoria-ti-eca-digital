@@ -196,26 +196,89 @@ Caso o Redis ou a API verificadora fiquem indisponíveis, novas autorizações e
 
 * **Conformidade e Privacidade:** A proposta considera os princípios de finalidade, necessidade, segurança e prevenção da LGPD, além das exigências de proteção de crianças e adolescentes previstas no ECA Digital. A minimização do armazenamento, a proteção das credenciais e a possibilidade de revogação são medidas de segurança e privacidade que deverão ser acompanhadas de controles técnicos, organizacionais e jurídicos.
 
-## 4. Análise Ética
+### 4. Análise Ética
+#### 4.1 Matriz de Riscos Éticos
 
-**Matriz de riscos: (No mínimo 5, com classificação, impacto e controle)**
+| ID | Risco Identificado | Severidade | Impacto | Mecanismo de Controle / Mitigação |
+|---|---|---|---|---|
+| R1 | Vazamento de dados de menores em servidores de jogos | Alta | Crítico | Adoção de ZKP e minimização rigorosa de dados; a plataforma consumidora recebe apenas atributos booleanos de autorização e escopos permitidos, sem armazenamento de documentos de identidade, CPFs ou datas de nascimento completas. |
+| R2 | Burla por biometria de terceiros (menor usa rosto do pai) | Alta | Alto | Exigência de fluxo de consentimento no aplicativo próprio do responsável, protegido por biometria local do dispositivo, precedido de Painel Educativo de Riscos e vinculado à integração pretendida com autoridades autenticadoras (como o Gov.br, condicionada a acordos institucionais). Reforça-se que a autenticação tecnológica reduz, mas não anula totalmente o risco de conivência ou empréstimo de dispositivos, exigindo conscientização parental.|
+| R3 | Rastreamento da atividade de navegação dos menores | Alta | Alto | Utilização de identificadores efêmeros (Ephemeral DIDs) e tokens rotativos por sessão; redução significativa da possibilidade de correlação de atividades entre jogos e plataformas diferentes, mitiga-se o rastreamento cruzado sem afirmar anonimato absoluto.|
+| R4 | Exclusão de jovens cujos pais não possuem smartphones | Média | Alto | Proposta de parceria institucional com órgãos públicos de atendimento presencial (como CRAS, postos de atendimento integrado ou escolas públicas) para validação e emissão assistida de credenciais offline ou alternativas, concebida como modelo de cooperação pretendida.|
+| R5 | Bloqueio Indevido de contas legítimas por falha de API ou Interrupção do Sistema | Média | Média | Adoção de arquitetura de falha segura (fail closed) para novas validações de segurança, combinada com uma janela temporária controlada e restrita para sessões já ativadas (sem concessão de novos privilégios durante a indisponibilidade), além de canal humano de contestação rápida.|
 
-**Decisão de Implantação: ( implantar, implantar com controles ou não implantar ainda, em até 10 linhas.)**
+#### 4.2 Decisão de Implantação
 
-**Controles antes de entrar em produção: no mínimo 6, cobrindo os seis eixos.**
+**Decisão:** Implantar com Controles.
 
-**Seis eixos são: Transparência, Revisão Humana, Minimização de Dados, Segurança, Teste de Viés, Canal de Contestação**
+A solução resolve o gargalo de privacidade do ECA Digital (Lei 15.211/2025) e impede fraudes por biometria de terceiros ao combinar ZKP com o consentimento legal rastreável e informado do responsável, garantindo proteção a menores sem criar repositórios centralizados vulneráveis.
 
-**LGPD: dados tratados, finalidade, base legal, prazo, dados sensíveis ou de menores.**
+#### 4.3 Controles Antes da Entrada em Produção (6 Eixos)
 
-**Comunicado público de até 600 caracteres, com a contagem.**
+**Transparência:** Publicação do código da biblioteca ZKP em open-source e política de privacidade com linguagem simplificada para adolescentes e pais.
 
-## 5. Acessibilidade e Inclusão Digital
+**Revisão Humana:** Atendimento humano garantido em caso de contestação de bloqueio de acesso ou falha de vínculo parental.
 
-**Quem pode ficar de fora? O que a proposta faz por cada grupo?**
+**Minimização de Dados:** Arquitetura orientada estritamente aos princípios da LGPD (finalidade e necessidade), limitando o fluxo de dados entre o GuardianGate e as plataformas consumidoras a atestados de elegibilidade e escopos de permissão necessários.
 
-**Requisitos com base na WCAG e na aula de Inclusão digital e Acessibilidade**
+**Segurança:** Testes de invasão (Pentest) periódicos na API do middleware e criptografia TLS 1.3 ponta a ponta.
 
+**Teste de Viés:** Realização de auditorias e testes regulares para avaliar a taxa de sucesso de autenticação e usabilidade em diferentes faixas socioeconômicas e modelos de smartphones, prevenindo barreiras tecnológicas desproporcionais.
+
+**Canal de Contestação:** Aba dedicada dentro da plataforma para contestar falhas de verificação em até 48h.
+
+#### 4.4 LGPD (Lei Geral de Proteção de Dados Pessoais)
+
+##### 4.4.1 Matriz de Governança e Operações de Tratamento de Dados (LGPD)
+
+| Dado Tratado | Finalidade do Tratamento | Local de Processamento | Agente / Responsável | Prazo de Retenção | Base Legal Aplicável |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Dados Civis e de Filiação** *(RG, CPF, Certidão)* | Validação da identidade do responsável e da relação de dependência legal do menor. | Infraestrutura da Autoridade Emissora (ex.: Gov.br). | Controlador (Emissor de Identidade). | Retido na fonte emissora conforme legislação própria de identificação civil. | **Cumprimento de Obrigação Legal** (Art. 7º, II, LGPD e Decreto nº 12.880/2026). |
+| **Credenciais Verificáveis e Chaves Privadas** | Armazenamento local para geração de provas criptográficas no dispositivo do usuário. | *Wallet App* (Armazenamento local protegido por biometria no smartphone). | Operador (Usuário / Carteira Digital). | Permanente no dispositivo até exclusão manual ou revogação. | **Consentimento do Responsável / Melhor Interesse** (Art. 14, § 1º, LGPD). |
+| **Identificadores de Sessão (`Nonces` e `Client_ID`)** | Garantia de segurança contra ataques de repetição (*replay attacks*) e vinculação à solicitação. | Memória Cache do Verificador (Redis). | Co-controlador (GuardianGate Middleware). | Temporário (expiração em até 5 minutos via TTL). | **Garantia da Prevenção à Fraude e Segurança** (Art. 7º, IX, LGPD). |
+| **Tokens de Autorização Pseudonimizados** | Liberação e controle granular de escopos e permissões ativas nas plataformas consumidoras. | Memória Cache do Middleware e Plataforma Consumidora. | Co-controladores (GuardianGate e Plataforma Consumidora). | Temporário (validade máxima de 15 minutos). | **Cumprimento de Obrigação Legal** (Art. 7º, II c/c Art. 14 da LGPD e Art. 9º da Lei nº 15.211/2025). |
+| **Registros Técnicos de Aplicação (`Application Logs`)** | Auditoria técnica de segurança, monitoramento de disponibilidade e prevenção de acessos indevidos. | Servidores de Aplicação do Middleware GuardianGate. | Controlador (GuardianGate Middleware). | Até 6 meses (conforme exigência do Marco Civil da Internet). | **Cumprimento de Obrigação Legal** (Art. 15 da Lei nº 12.965/2014 - MCI). |
+
+##### Princípios da LGPD Aplicados à Arquitetura
+
+1. **Princípio do Melhor Interesse do Menor (Art. 14, *caput*):** Todas as escolhas tecnológicas visam assegurar o desenvolvimento saudável e a proteção contra abordagens inadequada em ambientes virtuais, equilibrando a tutela parental com a privacidade digital do adolescente.
+
+2. **Minimização e Necessidade (Art. 6º, III):** A plataforma consumidora recebe apenas atestados booleanos e escopos de permissão necessários à prestação do serviço interativo, eliminando o compartilhamento de documentos ou dados de qualificação civil.
+
+3. **Segurança e Prevenção (Art. 6º, VII e VIII):** O uso de Provas de Conhecimento Zero (zk-SNARKs), aliado à eliminação de bases centralizadas de dados pessoais, impede o vazamento massivo de informações de crianças e adolescentes.
+
+4. **Livre Acesso e Transparência (Art. 6º, IV e VI):** O responsável possui gestão contínua sobre as permissões concedidas por meio da carteira digital, podendo consultar, alterar ou revogar os escopos autorizados a qualquer momento.
+
+#### 4.5 Comunicado Público à Sociedade
+
+"Na ConectAge, proteger nossas crianças no ambiente digital não significa abrir mão da privacidade das famílias. Nossa nova solução para jogos online e plataformas como o Discord conecta o consentimento dos pais à verificação de idade sem armazenar fotos, RG ou históricos de navegação. Utilizando criptografia de Prova de Zero Conhecimento e autenticação legal via Gov.br com alertas de riscos informados, garantimos o cumprimento rigoroso do ECA Digital, mantendo os ambientes virtuais seguros para os jovens e totalmente privados para todos."
+
+###   
+## 5. Acessibilidade e Inclusão Digital  
+#### 5.1 Quem pode ficar de fora?  
+**1. Pessoas com Deficiência Visual ou Baixa Visão:** Responsáveis ou menores que utilizam leitores de tela e navegação por voz podem ser excluídos se a interface do aplicativo de carteira (*Wallet App*) não seguir diretrizes estritas de marcação acessível.  
+2. **Famílias em Situação de Vulnerabilidade Socioeconômica e Alfabetização Digital Reduzida:** Pais com baixa escolaridade ou sem familiaridade com autenticação em duas etapas, como aqueles que não possuem conta Ouro/Prata no Gov.br.  
+3. **Pessoas com Deficiência Motora:** Dificuldades de manuseio e navegação em telas sensíveis ao toque sem suporte a acionadores externos ou comandos de voz.  
+4. **Exclusão Tecnológica por Dispositivos Antigos ou Conectividade Limitada:** Famílias que utilizam smartphones de baixo custo (sem leitor biométrico nativo) ou residem em áreas com sinal de internet instável.  
+  
+#### 5.2 Soluções de Inclusão e Requisitos de Acessibilidade (WCAG 2.1)  
+  
+Para garantir que nenhum grupo seja marginalizado no cumprimento das exigências do ECA Digital, a plataforma tem os requisitos baseados na WCAG 2.1 (Nível AA).  
+  
+* **Acessibilidade Visual (Perceptível - WCAG Nível AA):**  
+    * **Compatibilidade Total com Leitores de Tela:** Implementação rigorosa de atributos ARIA (*Accessible Rich Internet Applications*) e rótulos legíveis (*labels*) para NVDA, TalkBack e VoiceOver em toda a interface do *Wallet App* e do Painel Educativo.  
+    * **Contraste Mínimo e Adaptabilidade:** Razão de contraste mínima de 4,5:1 para textos normais e 3:1 para textos grandes. Para componentes visuais e elementos gráficos necessários à identificação de controles, será adotado contraste mínimo de 3:1 em relação às cores adjacentes, conforme os critérios aplicáveis da WCAG 2.1. A interface também oferecerá suporte a modo de alto contraste e redimensionamento de texto de até 200% sem perda de conteúdo ou funcionalidade.  
+    * **Navegação por Código de Cores Não Exclusivo:** Avisos e status de restrição não dependem exclusivamente da cor (utilizando ícones e texto descritivo concomitante).  
+* **Acessibilidade Motora e Operável:**  
+    * **Áreas de Toque Expandidas:** Botões de aprovação e seleção terão dimensões mínimas de 48x48 dp, como requisito adicional de acessibilidade adotado pelo projeto para facilitar a interação de pessoas com dificuldades motoras.  
+    * **Atalhos e Comandos por Voz:** Integração com assistentes nativos para permitir a navegação e leitura do Painel Educativo sem necessidade de digitação complexa.  
+* **Inclusão Digital para Famílias Conectadas por Dispositivos Simples:**  
+    * **Sistemas de Fallback Sem Biometria:** Para aparelhos sem leitor de impressão digital/FaceID, permite-se o desbloqueio local da *wallet* via PIN numérico forte vinculado ao hardware seguro (Keystore/Keychain).  
+    * **PWA / Aplicativo Leve (*Lite*):** Desenvolvimento de uma versão otimizada do aplicativo, com consumo de dados reduzido e compatibilidade com redes 2G/3G. O sistema poderá armazenar temporariamente a credencial e os dados necessários no dispositivo para permitir o acesso às informações já carregadas durante períodos sem conexão. Entretanto, a validação da autorização será realizada online, sempre que necessária, para verificar a autenticidade da prova, a validade da credencial, possíveis revogações, a expiração do token e a proteção contra reutilização de nonces. Caso não exista conexão, operações que dependam dessa validação ficarão pendentes até o restabelecimento da internet, sem liberar indevidamente o acesso.  
+* **Inclusão Presencial e Atendimento Físico:**  
+    * **Postos de Validação Auxiliada:** Para responsáveis sem smartphone ou conta no Gov.br, firma-se parceria com postos de atendimento público (ex.: Poupatempo, CRAS, escolas públicas) para emissão e validação presencial do vínculo de dependência e emissão de credenciais impressas em QR Code seguro/offline  
+    * **Credenciais Impressas em QR Code:** Possibilidade de emissão de credenciais impressas contendo QR Code com dados mínimos e assinatura digital verificável. Para reduzir riscos de cópia e reutilização, serão adotados mecanismos de validade limitada, identificação única, controle de utilização e consulta de revogação quando houver conexão. A assinatura digital permitirá verificar a autenticidade e detectar alterações no conteúdo, mas não impedirá, isoladamente, a cópia do código. Portanto, a validação offline terá limitações e não será considerada suficiente para operações que exijam confirmação de revogação ou controle de uso em tempo real.
+      
 ## 6. Sustentabilidade
 
 **Impacto ambiental da solução, com
