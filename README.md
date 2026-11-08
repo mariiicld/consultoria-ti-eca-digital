@@ -371,49 +371,28 @@ Outra responsabilidade importante é estabelecer diretrizes de conformidade com 
 
 ## 10. Referências
 
-BRASIL. Lei nº 12.965, de 23 de abril de 2014. Estabelece princípios, garantias, direitos e deveres para o uso da Internet no Brasil (Marco Civil da Internet). Brasília, DF, 2014. Disponível em: https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/lei/l12965.htm.
+BRASIL. Lei nº 15.211, de 17 de setembro de 2025. Dispõe sobre a proteção de crianças e adolescentes em ambientes digitais (ECA Digital). Brasília, DF, 2025. Disponível em: https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15211.htm.
 
-BRASIL. Lei nº 13.709, de 14 de agosto de 2018. Lei Geral de Proteção de Dados Pessoais (LGPD). Brasília, DF, 2018. Disponível em: https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm.
+BRASIL. Decreto nº 12.880, de 18 de março de 2026. Regulamenta a Lei nº 15.211, de 17 de setembro de 2025. Brasília, DF, 2026.
 
-BRASIL. Lei nº 15.211, de 17 de setembro de 2025. Dispõe sobre a proteção de crianças e adolescentes em ambientes digitais (Estatuto Digital da Criança e do Adolescente — ECA Digital). Brasília, DF, 2025. Disponível em: https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15211.htm. 
-Senado Federal+1
+INTERNET ENGINEERING TASK FORCE (IETF). RFC 9700: Best Current Practice for OAuth 2.0 Security. 2025. Disponível em: https://www.rfc-editor.org/rfc/rfc9700.html.
 
-BRASIL. Decreto nº 12.880, de 18 de março de 2026. Regulamenta a Lei nº 15.211, de 17 de setembro de 2025, que dispõe sobre a proteção de crianças e adolescentes em ambientes digitais. Brasília, DF, 2026. Disponível em: https://www.gov.br/mj/pt-br/assuntos/arquivos-imprensa/sedigi/decretos-eca-digital.pdf. 
-Serviços e Informações do Brasil+1
+INTERNET ENGINEERING TASK FORCE (IETF). RFC 9846: The Transport Layer Security (TLS) Protocol Version 1.3. 2026. Disponível em: https://www.rfc-editor.org/rfc/rfc9846.html. 
 
-COMITÊ GESTOR DA INTERNET NO BRASIL (CGI.br). Pesquisa sobre o uso da Internet por crianças e adolescentes no Brasil: TIC Kids Online Brasil 2024. São Paulo: CGI.br, 2024. Disponível em: https://cetic.br/pt/publicacao/pesquisa-sobre-o-uso-da-internet-por-criancas-e-adolescentes-no-brasil-tic-kids-online-brasil-2024/. 
-Cetic.br+1
+INTERNATIONAL TELECOMMUNICATION UNION (ITU). Recommendation ITU-T X.1285: OpenID Connect Core 1.0 – Errata Set 2. Genebra, 2025. Disponível em: https://www.itu.int/ITU-T/recommendations/rec.aspx?rec=16381. 
 
-GROTH, Jens. On the Size of Pairing-Based Non-interactive Arguments. In: EUROCRYPT 2016. Lecture Notes in Computer Science, v. 9666, p. 305–326, 2016. Disponível em: https://doi.org/10.1007/978-3-662-49896-5_11. 
-DOI
+LÖDERSTEDT, T.; BRADLEY, J.; LABUNETS, A.; FETT, D. SoK: Understanding zk-SNARKs: The Gap Between Research and Practice. IACR Cryptology ePrint Archive, 2025. Disponível em: https://eprint.iacr.org/2025/172. 
 
-INTERNET ENGINEERING TASK FORCE (IETF). The Transport Layer Security (TLS) Protocol Version 1.3. RFC 8446, 2018. Disponível em: https://www.rfc-editor.org/rfc/rfc8446.html. 
-RFC Editor
+NATIONAL INSTITUTE OF STANDARDS AND TECHNOLOGY (NIST). Implementing a Zero Trust Architecture: NIST Special Publication 1800-35. Gaithersburg, 2025. Disponível em: https://doi.org/10.6028/NIST.SP.1800-35. 
 
-INTERNET ENGINEERING TASK FORCE (IETF). JSON Web Token (JWT). RFC 7519, 2015. Disponível em: https://www.rfc-editor.org/rfc/rfc7519.html. 
-RFC Editor
+OPENID FOUNDATION. OpenID for Verifiable Presentations 1.0. Final Specification, 2025. Disponível em: https://openid.net/specs/openid-4-verifiable-presentations-1_0-final.html
 
-INTERNET ENGINEERING TASK FORCE (IETF). The OAuth 2.0 Authorization Framework. RFC 6749, 2012. Disponível em: https://www.rfc-editor.org/rfc/rfc6749.html.
+REDIS LTD. Redis Documentation: EXPIRE — Set a key's time to live in seconds. Documentação oficial. Disponível em: https://redis.io/docs/latest/commands/expire/.
 
-NATIONAL INSTITUTE OF STANDARDS AND TECHNOLOGY (NIST). Zero Trust Architecture. NIST Special Publication 800-207. Gaithersburg, 2020. Disponível em: https://doi.org/10.6028/NIST.SP.800-207. 
-NIST CSRC+1
+WORLD WIDE WEB CONSORTIUM (W3C). Accessible Rich Internet Applications (WAI-ARIA) 1.3. W3C Working Draft, 2026. Disponível em: https://www.w3.org/TR/wai-aria-1.3/. 
 
-OPENID FOUNDATION. OpenID Connect Core 1.0 incorporating errata set 2. 2023. Disponível em: https://openid.net/specs/openid-connect-core-1_0.html. 
-OpenID Foundation
+WORLD WIDE WEB CONSORTIUM (W3C). Decentralized Identifiers (DIDs) v1.1. W3C Candidate Recommendation Snapshot, 2026. Disponível em: https://www.w3.org/TR/did-1.1/. 
 
-OPENID FOUNDATION. OpenID for Verifiable Presentations 1.0. Final Specification, 2025. Disponível em: https://openid.net/specs/openid-4-verifiable-presentations-1_0.html. 
-OpenID Foundation+1
+WORLD WIDE WEB CONSORTIUM (W3C). Verifiable Credentials Data Model v2.0. W3C Recommendation, 2025. Disponível em: https://www.w3.org/TR/vc-data-model/. 
 
-REDIS LTD. Redis Documentation: EXPIRE — Set a key's time to live in seconds. Documentação oficial do Redis. Disponível em: https://redis.io/docs/latest/commands/expire/.
-
-WORLD WIDE WEB CONSORTIUM (W3C). Verifiable Credentials Data Model v1.1. W3C Recommendation, 2022. Disponível em: https://www.w3.org/TR/vc-data-model-1.1/. 
-W3C
-
-WORLD WIDE WEB CONSORTIUM (W3C). Decentralized Identifiers (DIDs) v1.0. W3C Recommendation, 2022. Disponível em: https://www.w3.org/TR/did-core/. 
-W3C
-
-WORLD WIDE WEB CONSORTIUM (W3C). Web Content Accessibility Guidelines (WCAG) 2.1. W3C Recommendation, 2018. Disponível em: https://www.w3.org/TR/WCAG21/. 
-W3C
-
-WORLD WIDE WEB CONSORTIUM (W3C). Accessible Rich Internet Applications (WAI-ARIA) 1.2. W3C Recommendation. Disponível em: https://www.w3.org/TR/wai-aria-1.2/. 
-W3C
+WORLD WIDE WEB CONSORTIUM (W3C). Web Content Accessibility Guidelines (WCAG) 2.2. W3C Recommendation, atualização de 12 dez. 2024. Disponível em: https://www.w3.org/TR/WCAG22/
