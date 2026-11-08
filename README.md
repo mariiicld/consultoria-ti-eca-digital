@@ -281,14 +281,6 @@ Para garantir que nenhum grupo seja marginalizado no cumprimento das exigências
 * **Inclusão Presencial e Atendimento Físico:**  
     * **Postos de Validação Auxiliada:** Para responsáveis sem smartphone ou conta no Gov.br, firma-se parceria com postos de atendimento público (ex.: Poupatempo, CRAS, escolas públicas) para emissão e validação presencial do vínculo de dependência e emissão de credenciais impressas em QR Code seguro/offline  
     * **Credenciais Impressas em QR Code:** Possibilidade de emissão de credenciais impressas contendo QR Code com dados mínimos e assinatura digital verificável. Para reduzir riscos de cópia e reutilização, serão adotados mecanismos de validade limitada, identificação única, controle de utilização e consulta de revogação quando houver conexão. A assinatura digital permitirá verificar a autenticidade e detectar alterações no conteúdo, mas não impedirá, isoladamente, a cópia do código. Portanto, a validação offline terá limitações e não será considerada suficiente para operações que exijam confirmação de revogação ou controle de uso em tempo real.
-      
-## 6. Sustentabilidade
-
-**Impacto ambiental da solução, com
-base na aula de TI Verde.**
-
-**Quem mantém e quem paga depois
-do primeiro ano.**
 
 ## 6. Sustentabilidade
 #### 6.1 Impacto Ambiental e Práticas de TI Verde
@@ -346,23 +338,6 @@ Devido à arquitetura descentralizada (onde o custo de armazenamento de credenci
 | 3 | Autenticação Federada via Gov.br | Banco de Dados Próprio com Fotos de RG | Elimina a necessidade de a consultoria guardar documentos de cidadãos, utilizando a infraestrutura pública existente. |
 | 4 | Modelo Comercial B2B (Plataformas Pagam) | Cobrança por Usuário / Anúncios | Garante acesso universal e gratuito para famílias de qualquer classe social. |
 | 5 | Tokens de Sessão Efêmeros (Curta Duração) | Tokens de Acesso Permanentes | Impede que a atividade de navegação do usuário seja rastreada entre diferentes jogos ou servidores. |
-## 7. Impacto Esperado
-
-**Indicadores mensuráveis, com
-meta.**
-
-**Como ouvir os usuários antes de
-ampliar.**
-
-**O que fazer se a solução não pegar.**
-
-## 8. Quadro de Decisões do Projeto
-
-**No mínimo 5 decisões do projeto.**
-
-**Decisão, alternativas consideradas e por que esta.**
-
-**Ex.: nuvem ou servidor próprio, app ou SMS.**
 
 ## 9. Capítulos Individuais
 ### 9.1 Capítulo Individual — Gabriel da Silva Cesário (Ciência de Dados)
@@ -372,27 +347,30 @@ No desenvolvimento da nossa solução de verificação de idade e moderação (D
 
 Além disso, atuei diretamente na auditoria do sistema para garantir a ausência de viés algorítmico. Como o sistema lida com o cumprimento do ECA Digital e atende crianças, adolescentes e responsáveis de diferentes
 perfis, era indispensável garantir que os modelos de checagem e detecção funcionassem com a mesma precisão e equidade para diferentes faixas populacionais, tons de pele e condições de iluminação.
-
 (Todo o progresso, experimentos de modelos e pipelines de validação estão registrados e confirmados via commits e Pull Requests no repositório do projeto no GitHub).
 
 * **Plano de Desenvolvimento Profissional (Metas SMART)**
 Para continuar evoluindo após as entregas do projeto e expandir minhas competências na área de dados voltada à segurança, estruturei meu plano de carreira no modelo SMART:
 
-
-- Específica (S) **: Aprofundar meus conhecimentos em Aprendizado de Máquina com foco em Privacidade (Privacy-Preserving Machine Learning e Federated Learning), entendendo como treinar modelos seguros sem expor dados
+- **Específica (S)**: Aprofundar meus conhecimentos em Aprendizado de Máquina com foco em Privacidade (Privacy-Preserving Machine Learning e Federated Learning), entendendo como treinar modelos seguros sem expor dados
 sensíveis de usuários.
 
 
--  **Mensurável (M) **: Concluir 2 cursos especializados na plataforma Coursera e desenvolver/publicar 1 projeto prático open-source no GitHub aplicando aprendizagem federada.
+- **Mensurável (M)**: Concluir 2 cursos especializados na plataforma Coursera e desenvolver/publicar 1 projeto prático open-source no GitHub aplicando aprendizagem federada.
 
 
-- Atingível (A) **: Organizar uma rotina de estudo dedicada de 5 horas semanais nos fins de semana, ao longo de 5 meses.
+- **Atingível (A)**: Organizar uma rotina de estudo dedicada de 5 horas semanais nos fins de semana, ao longo de 5 meses.
 
 
-- ** Relevante (R) **: Aumentar minha empregabilidade e diferencial no mercado de Ciência de Dados, especializando-me em ética algorítmica, privacidade de dados e segurança da informação.
+- **Relevante (R)**: Aumentar minha empregabilidade e diferencial no mercado de Ciência de Dados, especializando-me em ética algorítmica, privacidade de dados e segurança da informação.
 
 
--  **emporal (T) **: Conclusão total das etapas e publicação do projeto no repositório no prazo limite de 6 meses.
+- **Temporal (T) **: Conclusão total das etapas e publicação do projeto no repositório no prazo limite de 6 meses.
+
+* **Feedback Mariana Calderari:**
+
+* **Feedback Vitor Camilo de Santana:**
+
 
 ### 9.2 Capítulo Individual — Mariana Calderari (Engenharia de Dados)
 
