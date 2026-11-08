@@ -308,22 +308,22 @@ ampliar.**
 
 **Ex.: nuvem ou servidor próprio, app ou SMS.**
 
-## 9. Capítulos Individuas
+## 9. Capítulos Individuais
 ### 9.1 Capítulo Individual — Gabriel da Silva Cesário (Ciência de Dados)
 
-* **Papel no Projeto:**
+* **Papel no Projeto:** Responsável pela estruturação do fluxo de dados responsável por receber, organizar e processar, em tempo real, os eventos relacionados à verificação de idade e ao consentimento parental. Minha atuação está voltada à definição dos processos de ingestão e processamento, ao gerenciamento do armazenamento temporário em Redis e ao estabelecimento de políticas de expiração (TTL) e descarte automático (data purge). Essas atividades contribuem para manter o sistema eficiente, com baixa latência e tratamento adequado das informações, respeitando os princípios de privacidade e proteção de dados estabelecidos pela LGPD.
 
 * **Plano de Desenvolvimento Profissional** (Metas SMART):
 
-- **Específica (S):**
+- **Específica (S):** Aprofundar meus conhecimentos em Engenharia de Dados, com foco no desenvolvimento de pipelines ETL/ELT, processamento de dados em tempo real, banco de dados Redis e serviços de computação em nuvem, especialmente AWS.
 
-- **Mensurável (M):**
+- **Mensurável (M):** Concluir pelo menos 2 cursos relacionados à área e desenvolver 1 projeto prático no GitHub envolvendo ingestão, processamento e armazenamento temporário de dados, com aplicação de políticas TTL e descarte automático de informações.
 
-- **Atingível (A):**
+- **Atingível (A):** Dedicar aproximadamente 5 horas semanais aos estudos, utilizando cursos online, documentação oficial e desenvolvimento de projetos práticos para consolidar os conhecimentos adquiridos.
 
-- **Relevante (R):**
+- **Relevante (R):** Desenvolver competências técnicas necessárias para atuar profissionalmente como Engenheira de Dados, especialmente na construção de pipelines eficientes, escaláveis e seguros, capazes de processar grandes volumes de informações sem comprometer a privacidade dos usuários.
 
-- **Temporal (T):**
+- **Temporal (T):** Concluir os cursos e desenvolver o projeto prático no prazo de 6 meses, utilizando os resultados como parte do meu portfólio profissional.
 
 * **Feedback Mariana Calderari:**
 
