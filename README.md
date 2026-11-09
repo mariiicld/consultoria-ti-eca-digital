@@ -198,8 +198,19 @@ Caso o Redis ou a API verificadora fiquem indisponíveis, novas autorizações e
 * **Conformidade e Privacidade:** A proposta considera os princípios de finalidade, necessidade, segurança e prevenção da LGPD, além das exigências de proteção de crianças e adolescentes previstas no ECA Digital. A minimização do armazenamento, a proteção das credenciais e a possibilidade de revogação são medidas de segurança e privacidade que deverão ser acompanhadas de controles técnicos, organizacionais e jurídicos.
 
 #### 3.5 Atuação por Área de Carreira no Projeto
+* **Engenharia de Dados (Mariana Calderari):** Responsável pela arquitetura do fluxo de ingestão, processamento e organização dos eventos gerados pelo sistema, garantindo a comunicação eficiente entre os componentes. Atua no gerenciamento do armazenamento temporário em memória por meio do Redis, utilizando políticas de expiração (TTL) e descarte de dados (data purge) para reduzir a retenção de informações sensíveis e contribuir para a aplicação dos princípios de minimização e proteção de dados previstos na LGPD.
+
+* **Ciência de Dados (Gabriel da Silva Cesário):** Responsável pelo desenvolvimento de mecanismos de monitoramento e análise dos eventos processados pelo sistema, identificando padrões anormais de utilização, como picos atípicos de solicitações de autorização ou tentativas de uso indevido. Também atua na avaliação dos mecanismos de análise, utilizando dados minimizados ou pseudonimizados, sem necessidade de acesso direto a documentos pessoais ou identidades civis.
 
 * **Cibersegurança (Vitor Camilo de Santana):** Responsável pela modelagem de ameaças (Threat Modeling) e pela definição dos mecanismos de segurança criptográfica, incluindo a utilização de provas de conhecimento zero (zk-SNARKs). Atua na proteção das credenciais, na validação das provas criptográficas e na implementação de mecanismos contra ataques de repetição (Replay Attacks), garantindo a autenticidade das operações e contribuindo para a proteção das informações dos usuários, em conformidade com os requisitos de segurança e privacidade da LGPD e do ECA Digital (Lei nº 15.211/2025).
+
+#### 3.6 O que a Tecnologia NÃO Resolve
+
+**Supervisão Parental Contínua:** A tecnologia permite verificar a faixa etária e registrar o consentimento dos responsáveis, mas não substitui o acompanhamento da rotina digital, das interações e das amizades do menor. A autorização de acesso a determinada funcionalidade não significa que todas as interações realizadas nela serão seguras.
+
+**Engenharia Social e Manipulação Psicológica:** A verificação de idade e o controle de permissões reduzem a possibilidade de acesso indevido a funcionalidades restritas, mas não impedem comportamentos inadequados praticados por outros usuários em espaços de interação autorizados. Situações de manipulação, assédio e aliciamento ainda exigem moderação, canais de denúncia e medidas de proteção complementares.
+
+**Educação Digital e Empréstimo de Aparelhos:** O sistema não impede que um responsável autentique a carteira e entregue o dispositivo desbloqueado a um menor. Da mesma forma, não substitui a orientação sobre segurança digital, privacidade e comportamento adequado em ambientes virtuais.  
 
 ### 4. Análise Ética
 #### 4.1 Matriz de Riscos Éticos
