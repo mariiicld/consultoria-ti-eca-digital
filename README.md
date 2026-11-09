@@ -327,19 +327,31 @@ Devido à arquitetura descentralizada (onde o custo de armazenamento de credenci
 
 ## 7. Impacto Esperado
 
-#### Indicadores Mensuráveis
+#### 7.1 Indicadores Mensuráveis e Fundamentação de Metas
 
-**Redução de Acessos Indevidos:** Redução de 90% na presença de menores não autorizados em canais de voz/chat com classificação indicativa restrita.
+A avaliação do impacto do GuardianGate-ZKP é orientada por indicadores-chave de desempenho (KPIs) com metas fundamentadas em testes de arquitetura e validação contínua:
 
-**Eficiência da Verificação:** Tempo médio de aprovação pelo responsável inferior a 15 segundos.
+* **Eficácia na Restrição de Acessos Indevidos:**
+    * **Meta Projetada:** Redução estimada de até 85% a 90% na presença de menores não autorizados em canais restritos.
+    * **Justificativa e Linha de Base:** Em contraste com o modelo tradicional de autodeclaração de idade (que possui efetividade próxima de zero em impedir falsificação de data de nascimento), a exigência de prova criptográfica derivada de fonte confiável elimina a criação de contas sem validação. A margem residual não nula (10% a 15%) considera cenários de conivência parental direta (empréstimo voluntário do dispositivo/conta do adulto ao menor) e eventuais limitações de cobertura inicial do sistema.
 
-**Segurança da Informação:** 0 incidentes de vazamento de dados de menores ou responsáveis associados ao sistema.
+* **Eficiência do Fluxo de Aprovação Parental:**
+   * **Meta Projetada:** Tempo médio de resposta e aprovação parental inferior a 15 segundos (após abertura da notificação no dispositivo do responsável).
+   * **Justificativa e Plano de Testes:** A meta baseia-se na otimização dos componentes do fluxo: autenticação biométrica local no smartphone (aprox. 1 a 2 segundos), exibição da interface do Painel Educativo pré-carregada e geração do circuito zk-SNARK em hardware móvel (estimada em menos de 3 a 5 segundos em processadores móveis intermediários/avançados), somada à latência de rede da API efêmera (Redis/AWS). A viabilidade do tempo de resposta será aferida por meio de testes sintéticos de carga de benchmarking e testes de usabilidade com grupos de usuários em ambiente de testes (sandbox).
 
-#### Escuta dos Usuários e Planos de Contingência
+* **Indicador de Segurança da Informação e Privacidade:**
+    * **Meta Projetada:** Zero incidentes confirmados de vazamento de dados civis de menores ou responsáveis na infraestrutura da plataforma durante os ciclos de operação monitorada.
+    * **Justificativa e Monitoramento:** O indicador é sustentado pelo princípio de Privacy by Design, dado que a arquitetura não armazena repositórios centralizados de RG, CPF, fotos ou documentos. A meta não é apresentada como uma garantia absoluta infalível de software, mas como um objetivo de controle auditável, respaldado por varreduras de vulnerabilidade contínuas, programas de recompensa por falhas (bug bounty), testes anuais de intrusão (Pentest) por auditorias independentes e monitoramento de logs de segurança.
 
-**Plano de Escuta:** Pesquisa de satisfação contínua dentro dos apps e canal de diálogo com associações de pais e defensores dos direitos da infância.
+##### 7.2 Escuta dos Usuários e Plano de Contingência
 
-**Contingência:** Caso ocorra instabilidade nos serviços do Gov.br, o sistema chaveia automaticamente para atestação via chaves descentralizadas alternativas (Web3 DIDs) previamente cadastradas.
+* **Plano de Escuta e Governança Participativa:**
+   * **Pesquisas de Usabilidade e Satisfação:** Avaliação contínua da experiência de uso no Wallet App e nas interfaces integradas, medindo o índice de facilidade de aprovação e clareza do Painel Educativo.
+   * **Canal de Diálogo Institucional:** Criação de um conselho consultivo e canal de diálogo recorrente com associações de pais, educadores, especialistas em segurança digital e entidades de defesa dos direitos da infância e juventude, coletando relatórios periódicos de percepção de risco e usabilidade.
+
+* **Plano de Contingência Operacional (Resiliência sem Quebra de Confiança):**
+   * **Mecanismo de Falha Segura (Fail-Closed):** Em caso de indisponibilidade temporária ou instabilidade nos serviços de emissão e verificação primários (como a infraestrutura do Gov.br), a plataforma não libera acessos não validados preventivamente, priorizando a proteção integral do menor.
+   * **Emissores de Backup e Autoridades Federadas Homologadas:** Em vez de recorrer a chaves descentralizadas sem governança definida, o chaveamento de contingência opera exclusivamente entre Autoridades Certificadoras e Emissores Oficiais previamente homologados na federação de identidades da plataforma (como identidades digitais emitidas por órgãos estaduais ou entidades governamentais equivalentes). Para que um emissor alternativo seja aceito no fluxo de contingência, ele deve possuir cadeia de custódia pública validada, suporte a checagem de listas de revogação em tempo real e comprovação documental da relação de responsabilidade legal nos mesmos padrões de confiabilidade do emissor principal.
 
 ## 8. Quadro de Decisões do Projeto
 
