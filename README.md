@@ -267,7 +267,7 @@ A solução resolve o gargalo de privacidade do ECA Digital (Lei 15.211/2025) e 
 
 #### 4.5 Comunicado Público à Sociedade
 
-"Na ConectAge, proteger nossas crianças no ambiente digital não significa abrir mão da privacidade das famílias. Nossa nova solução para jogos online e plataformas como o Discord conecta o consentimento dos pais à verificação de idade sem armazenar fotos, RG ou históricos de navegação. Utilizando criptografia de Prova de Zero Conhecimento e autenticação legal via Gov.br com alertas de riscos informados, garantimos o cumprimento rigoroso do ECA Digital, mantendo os ambientes virtuais seguros para os jovens e totalmente privados para todos."
+"Na ConectAge, proteger nossas crianças no ambiente digital não significa abrir mão da privacidade das famílias. Nossa nova solução para jogos online e plataformas como o Discord conecta o consentimento dos pais à verificação de idade sem armazenar fotos, RG ou históricos de navegação. Utilizando criptografia de Prova de Zero Conhecimento e autenticação legal via Gov.br com alertas de riscos informados, garantimos o cumprimento rigoroso do ECA Digital, mantendo os ambientes virtuais seguros para os jovens e totalmente privados para todos." (545 Caracteres)
 
 ## 5. Acessibilidade e Inclusão Digital  
 #### 5.1 Quem pode ficar de fora?  
