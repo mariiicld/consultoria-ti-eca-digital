@@ -414,28 +414,57 @@ Outra responsabilidade importante é estabelecer diretrizes de conformidade com 
 
 ## 10. Referências
 
-BRASIL. Lei nº 15.211, de 17 de setembro de 2025. Dispõe sobre a proteção de crianças e adolescentes em ambientes digitais (ECA Digital). Brasília, DF, 2025. Disponível em: https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15211.htm.
+BRASIL. Lei nº 13.709, de 14 de agosto de 2018. Lei Geral de Proteção de Dados Pessoais (LGPD). Brasília, DF, 2018. Disponível em: https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm. Acesso em: 28 out. 2026.
 
-BRASIL. Decreto nº 12.880, de 18 de março de 2026. Regulamenta a Lei nº 15.211, de 17 de setembro de 2025. Brasília, DF, 2026.
+BRASIL. Lei nº 12.965, de 23 de abril de 2014. Estabelece princípios, garantias, direitos e deveres para o uso da Internet no Brasil (Marco Civil da Internet). Brasília, DF, 2014. Disponível em: https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/lei/l12965.htm. Acesso em: 27 out. 2026.
 
-INTERNET ENGINEERING TASK FORCE (IETF). RFC 9700: Best Current Practice for OAuth 2.0 Security. 2025. Disponível em: https://www.rfc-editor.org/rfc/rfc9700.html.
+BRASIL. Lei nº 15.211, de 17 de setembro de 2025. Dispõe sobre a proteção de crianças e adolescentes em ambientes digitais (ECA Digital). Brasília, DF, 2025. Disponível em: https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15211.htm. Acesso em: 27 out. 2026. 
+Senado Federal
 
-INTERNET ENGINEERING TASK FORCE (IETF). RFC 9846: The Transport Layer Security (TLS) Protocol Version 1.3. 2026. Disponível em: https://www.rfc-editor.org/rfc/rfc9846.html. 
+BRASIL. Decreto nº 12.880, de 18 de março de 2026. Regulamenta a Lei nº 15.211/2025. Brasília, DF, 2026. Disponível em: https://www.gov.br/mj/pt-br/assuntos/arquivos-imprensa/sedigi/decretos-eca-digital.pdf. Acesso em: 27 out. 2026. 
 
-INTERNATIONAL TELECOMMUNICATION UNION (ITU). Recommendation ITU-T X.1285: OpenID Connect Core 1.0 – Errata Set 2. Genebra, 2025. Disponível em: https://www.itu.int/ITU-T/recommendations/rec.aspx?rec=16381. 
+AUTORIDADE NACIONAL DE PROTEÇÃO DE DADOS (ANPD). Radar Tecnológico: Mecanismos de Aferição de Idade. 2026. Disponível em: https://www.gov.br/anpd/pt-br/centrais-de-conteudo/documentos-tecnicos-orientativos/radar-tecnologico-5-mecanismos-de-afericao-de-idade.pdf. Acesso em: 29 out. 2026. 
 
-LÖDERSTEDT, T.; BRADLEY, J.; LABUNETS, A.; FETT, D. SoK: Understanding zk-SNARKs: The Gap Between Research and Practice. IACR Cryptology ePrint Archive, 2025. Disponível em: https://eprint.iacr.org/2025/172. 
+AUTORIDADE NACIONAL DE PROTEÇÃO DE DADOS (ANPD). Guia orientativo para definições dos agentes de tratamento de dados pessoais e do encarregado. 2024. Disponível em: https://www.gov.br/anpd/pt-br/centrais-de-conteudo/materiais-educativos-e-publicacoes/guia-orientativo-para-definicoes-dos-agentes-de-tratamento-de-dados-pessoais-e-do-encarregado. Acesso em: 4 nov. 2026. 
 
-NATIONAL INSTITUTE OF STANDARDS AND TECHNOLOGY (NIST). Implementing a Zero Trust Architecture: NIST Special Publication 1800-35. Gaithersburg, 2025. Disponível em: https://doi.org/10.6028/NIST.SP.1800-35. 
+OPENID FOUNDATION. OpenID for Verifiable Presentations 1.0. Final Specification, 2025. Disponível em: https://openid.net/specs/openid-4-verifiable-presentations-1_0-final.html. Acesso em: 4 nov. 2026.
 
-OPENID FOUNDATION. OpenID for Verifiable Presentations 1.0. Final Specification, 2025. Disponível em: https://openid.net/specs/openid-4-verifiable-presentations-1_0-final.html
+INTERNATIONAL TELECOMMUNICATION UNION (ITU-T). Recommendation X.1285: OpenID Connect Core 1.0 – Errata Set 2. 2025. Disponível em: https://www.itu.int/rec/T-REC-X.1285-202505-I. Acesso em: 2 nov. 2026. 
 
-REDIS LTD. Redis Documentation: EXPIRE — Set a key's time to live in seconds. Documentação oficial. Disponível em: https://redis.io/docs/latest/commands/expire/.
+9. WORLD WIDE WEB CONSORTIUM (W3C). Verifiable Credentials Data Model v2.0. W3C Recommendation, 15 maio 2025. Disponível em: https://www.w3.org/TR/vc-data-model-2.0/. Acesso em: 2 nov. 2026. 
 
-WORLD WIDE WEB CONSORTIUM (W3C). Accessible Rich Internet Applications (WAI-ARIA) 1.3. W3C Working Draft, 2026. Disponível em: https://www.w3.org/TR/wai-aria-1.3/. 
+WORLD WIDE WEB CONSORTIUM (W3C). Decentralized Identifiers (DIDs) v1.1. Candidate Recommendation Snapshot, 5 mar. 2026. Disponível em: https://www.w3.org/TR/did-1.1/. Acesso em: 82nov. 2026. 
+W3C+1
 
-WORLD WIDE WEB CONSORTIUM (W3C). Decentralized Identifiers (DIDs) v1.1. W3C Candidate Recommendation Snapshot, 2026. Disponível em: https://www.w3.org/TR/did-1.1/. 
+WORLD WIDE WEB CONSORTIUM (W3C). Bitstring Status List v1.0: Privacy-preserving status information for Verifiable Credentials. W3C Recommendation, 15 maio 2025. Disponível em: https://www.w3.org/TR/2025/REC-vc-bitstring-status-list-20250515/. Acesso em: 2 nov. 2026. 
 
-WORLD WIDE WEB CONSORTIUM (W3C). Verifiable Credentials Data Model v2.0. W3C Recommendation, 2025. Disponível em: https://www.w3.org/TR/vc-data-model/. 
+NATIONAL INSTITUTE OF STANDARDS AND TECHNOLOGY (NIST). Digital Identity Guidelines. NIST SP 800-63-4. 2025. Disponível em: https://doi.org/10.6028/NIST.SP.800-63-4. Acesso em: 4 nov. 2026. 
 
-WORLD WIDE WEB CONSORTIUM (W3C). Web Content Accessibility Guidelines (WCAG) 2.2. W3C Recommendation, atualização de 12 dez. 2024. Disponível em: https://www.w3.org/TR/WCAG22/
+NATIONAL INSTITUTE OF STANDARDS AND TECHNOLOGY (NIST). Digital Identity Guidelines: Identity Proofing and Enrollment. NIST SP 800-63A-4. 2025. Disponível em: https://doi.org/10.6028/NIST.SP.800-63A-4. Acesso em: 4 nov. 2026. 
+
+NATIONAL INSTITUTE OF STANDARDS AND TECHNOLOGY (NIST). Digital Identity Guidelines: Authentication and Authenticator Management. NIST SP 800-63B-4. 2025. Disponível em: https://doi.org/10.6028/NIST.SP.800-63B-4. Acesso em: 2 nov. 2026. 
+
+NATIONAL INSTITUTE OF STANDARDS AND TECHNOLOGY (NIST). Digital Identity Guidelines: Federation and Assertions. NIST SP 800-63C-4. 2025. Disponível em: https://doi.org/10.6028/NIST.SP.800-63C-4. Acesso em: 2 nov. 2026. 
+
+LIANG, Junkai et al. SoK: Understanding zk-SNARKs: The Gap Between Research and Practice. Cryptology ePrint Archive, 2025/172, 2025. Disponível em: https://eprint.iacr.org/2025/172. Acesso em: 2 nov. 2026. 
+
+INTERNET ENGINEERING TASK FORCE (IETF). Best Current Practice for OAuth 2.0 Security. RFC 9700, 2025. Disponível em: https://www.rfc-editor.org/rfc/rfc9700.html. Acesso em: 4 nov. 2026. 
+
+RESCORLA, Eric. The Transport Layer Security (TLS) Protocol Version 1.3. RFC 9846. Internet Engineering Task Force, 2026. Disponível em: https://www.rfc-editor.org/rfc/rfc9846.html. Acesso em: 4 nov. 2026. 
+
+NATIONAL INSTITUTE OF STANDARDS AND TECHNOLOGY (NIST). Implementing a Zero Trust Architecture: High-Level Document. NIST SP 1800-35. 2025. Disponível em: https://doi.org/10.6028/NIST.SP.1800-35. Acesso em: 30 out. 2026. 
+
+REDIS LTD. EXPIRE. Redis Documentation. Disponível em: https://redis.io/docs/latest/commands/expire/. Acesso em: 4 nov. 2026. 
+Docs
+
+WORLD WIDE WEB CONSORTIUM (W3C). Web Content Accessibility Guidelines (WCAG) 2.2. W3C Recommendation, atualização de 12 dez. 2024. Disponível em: https://www.w3.org/TR/WCAG22/. Acesso em: 1 nov. 2026. 
+W3C
+
+WORLD WIDE WEB CONSORTIUM (W3C). Accessible Rich Internet Applications (WAI-ARIA) 1.3. W3C Working Draft, 4 jun. 2026. Disponível em: https://www.w3.org/TR/wai-aria-1.3/. Acesso em: 1 nov. 2026. 
+w3.org
+
+GREEN SOFTWARE FOUNDATION. Software Carbon Intensity (SCI) Specification. Disponível em: https://greensoftware.foundation/standards/sci/. Acesso em: 28 out. 2026.
+
+GREEN WEB FOUNDATION. Tools. Disponível em: https://www.thegreenwebfoundation.org/tools/. Acesso em: 29 out. 2026. 
+
+NÚCLEO DE INFORMAÇÃO E COORDENAÇÃO DO PONTO BR (NIC.br). TIC Kids Online investiga, pela primeira vez, frequência do uso de plataformas digitais por crianças e adolescentes. 23 out. 2024. Disponível em: https://nic.br/noticia/releases/tic-kids-online-investiga-pela-primeira-vez-frequencia-do-uso-de-plataformas-digitais-por-criancas-e-adolescentes/. Acesso em: 24 out. 2026. 
