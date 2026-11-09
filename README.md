@@ -355,22 +355,17 @@ Para continuar evoluindo após as entregas do projeto e expandir minhas competê
 - **Específica (S)**: Aprofundar meus conhecimentos em Aprendizado de Máquina com foco em Privacidade (Privacy-Preserving Machine Learning e Federated Learning), entendendo como treinar modelos seguros sem expor dados
 sensíveis de usuários.
 
-
 - **Mensurável (M)**: Concluir 2 cursos especializados na plataforma Coursera e desenvolver/publicar 1 projeto prático open-source no GitHub aplicando aprendizagem federada.
-
 
 - **Atingível (A)**: Organizar uma rotina de estudo dedicada de 5 horas semanais nos fins de semana, ao longo de 5 meses.
 
-
 - **Relevante (R)**: Aumentar minha empregabilidade e diferencial no mercado de Ciência de Dados, especializando-me em ética algorítmica, privacidade de dados e segurança da informação.
 
+- **Temporal (T)**: Conclusão total das etapas e publicação do projeto no repositório no prazo limite de 6 meses.
 
-- **Temporal (T) **: Conclusão total das etapas e publicação do projeto no repositório no prazo limite de 6 meses.
-
-* **Feedback Mariana Calderari:** **Feedback Mariana Calderari:** Demonstrou comprometimento com a proposta do projeto, contribuindo com a perspectiva da Ciência de Dados e sua relação com o monitoramento e a análise de informações. Sua área de atuação é importante para identificar padrões, acompanhar indicadores e auxiliar na avaliação da eficácia da solução, especialmente na identificação de possíveis comportamentos anômalos e na análise dos resultados. Na área de desenvolvimento, acredito que possa aprofundar seus conhecimentos em análise de dados, desenvolvimento de modelos de detecção de anomalias e avaliação de métricas, buscando transformar os dados gerados pelo sistema em informações úteis para aprimorar a segurança e a experiência dos usuários.
+* **Feedback Mariana Calderari:** Demonstrou comprometimento com a proposta do projeto, contribuindo com a perspectiva da Ciência de Dados e sua relação com o monitoramento e a análise de informações. Sua área de atuação é importante para identificar padrões, acompanhar indicadores e auxiliar na avaliação da eficácia da solução, especialmente na identificação de possíveis comportamentos anômalos e na análise dos resultados. Na área de desenvolvimento, acredito que possa aprofundar seus conhecimentos em análise de dados, desenvolvimento de modelos de detecção de anomalias e avaliação de métricas, buscando transformar os dados gerados pelo sistema em informações úteis para aprimorar a segurança e a experiência dos usuários.
 
 * **Feedback Vitor Camilo de Santana:**
-
 
 ### 9.2 Capítulo Individual — Mariana Calderari (Engenharia de Dados)
 
@@ -414,8 +409,7 @@ Outra responsabilidade importante é estabelecer diretrizes de conformidade com 
 
 * **Feedback Gabriel da Silva Cesário:** A atuação do Vitor foi determinante para a segurança e a conformidade jurídica da solução. A definição rigorosa das diretrizes de cibersegurança, a proteção avançada das APIs e a estrita observância à LGPD — com foco especial na proteção de crianças e adolescentes — garantiram a integridade, a confidencialidade e a confiabilidade de todo o fluxo de verificação de idade
 
-* **Feedback Mariana Calderari:** **Feedback Mariana Calderari:** Demonstrou comprometimento na definição das estratégias de cibersegurança do projeto, contribuindo para a análise de riscos e para a elaboração dos mecanismos de proteção das informações dos usuários. Sua participação foi importante principalmente na abordagem de segurança das credenciais digitais, utilização de provas de conhecimento zero (zk-SNARKs), proteção das APIs e prevenção de ataques de repetição (Replay Attacks). Também considero positiva sua preocupação com a conformidade da solução em relação à LGPD e à proteção de crianças e adolescentes. Na sua área de desenvolvimento, acredito que possa aprofundar ainda mais os conhecimentos sobre implementação prática de mecanismos criptográficos e testes de vulnerabilidade, fortalecendo a capacidade de transformar as estratégias de segurança propostas em soluções tecnicamente aplicáveis.
-
+* **Feedback Mariana Calderari:** Demonstrou comprometimento na definição das estratégias de cibersegurança do projeto, contribuindo para a análise de riscos e para a elaboração dos mecanismos de proteção das informações dos usuários. Sua participação foi importante principalmente na abordagem de segurança das credenciais digitais, utilização de provas de conhecimento zero (zk-SNARKs), proteção das APIs e prevenção de ataques de repetição (Replay Attacks). Também considero positiva sua preocupação com a conformidade da solução em relação à LGPD e à proteção de crianças e adolescentes. Na sua área de desenvolvimento, acredito que possa aprofundar ainda mais os conhecimentos sobre implementação prática de mecanismos criptográficos e testes de vulnerabilidade, fortalecendo a capacidade de transformar as estratégias de segurança propostas em soluções tecnicamente aplicáveis.
 
 ## 10. Referências
 
