@@ -433,7 +433,7 @@ INTERNATIONAL TELECOMMUNICATION UNION (ITU-T). Recommendation X.1285: OpenID Con
 
 9. WORLD WIDE WEB CONSORTIUM (W3C). Verifiable Credentials Data Model v2.0. W3C Recommendation, 15 maio 2025. Disponível em: https://www.w3.org/TR/vc-data-model-2.0/. Acesso em: 2 nov. 2026. 
 
-WORLD WIDE WEB CONSORTIUM (W3C). Decentralized Identifiers (DIDs) v1.1. Candidate Recommendation Snapshot, 5 mar. 2026. Disponível em: https://www.w3.org/TR/did-1.1/. Acesso em: 82nov. 2026. 
+WORLD WIDE WEB CONSORTIUM (W3C). Decentralized Identifiers (DIDs) v1.1. Candidate Recommendation Snapshot, 5 mar. 2026. Disponível em: https://www.w3.org/TR/did-1.1/. Acesso em: 8 nov. 2026. 
 W3C+1
 
 WORLD WIDE WEB CONSORTIUM (W3C). Bitstring Status List v1.0: Privacy-preserving status information for Verifiable Credentials. W3C Recommendation, 15 maio 2025. Disponível em: https://www.w3.org/TR/2025/REC-vc-bitstring-status-list-20250515/. Acesso em: 2 nov. 2026. 
@@ -461,7 +461,6 @@ WORLD WIDE WEB CONSORTIUM (W3C). Web Content Accessibility Guidelines (WCAG) 2.2
 W3C
 
 WORLD WIDE WEB CONSORTIUM (W3C). Accessible Rich Internet Applications (WAI-ARIA) 1.3. W3C Working Draft, 4 jun. 2026. Disponível em: https://www.w3.org/TR/wai-aria-1.3/. Acesso em: 1 nov. 2026. 
-w3.org
 
 GREEN SOFTWARE FOUNDATION. Software Carbon Intensity (SCI) Specification. Disponível em: https://greensoftware.foundation/standards/sci/. Acesso em: 28 out. 2026.
 
