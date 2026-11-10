@@ -446,7 +446,9 @@ Como o sistema envolve o tratamento de informações de crianças, adolescentes 
 
 As metas SMART também estão bem elaboradas, pois apresentam objetivos claros, resultados mensuráveis e um planejamento realista de seis meses. A proposta de estudar protocolos importantes, como TCP/IP, HTTP e DNS, demonstra iniciativa em construir uma base técnica sólida. Além disso, a intenção de desenvolver um projeto prático é um diferencial, pois permite aplicar os conhecimentos adquiridos e fortalecer seu portfólio profissional.
 
-* **Feedback Vitor Camilo de Santana:*
+* **Feedback Vitor Camilo de Santana:*O trabalho desenvolvido pelo Matheus foi importante para o projeto, principalmente na área de Redes e Comunicação de Dados, contribuindo para a integração e comunicação entre os diferentes componentes da solução. Sua preocupação com a estabilidade da conexão, eficiência na transmissão das informações e segurança durante a troca de dados demonstra a importância da infraestrutura de redes para o funcionamento adequado do GuardianGate-ZKP.
+
+Também merece destaque sua atenção à proteção das informações de crianças, adolescentes e responsáveis, considerando que a comunicação entre os sistemas precisa ocorrer de maneira segura e confiável. Como oportunidade de desenvolvimento, acredito que ele poderia aprofundar seus conhecimentos em protocolos de comunicação, como TCP/IP, HTTP e DNS, além de explorar mecanismos de criptografia e monitoramento de redes. Isso permitiria ampliar sua capacidade de identificar vulnerabilidades, prevenir falhas de comunicação e contribuir para uma infraestrutura cada vez mais segura, estável e eficiente.
 
 ### 9.4 Capítulo Individual — Vitor Camilo de Santana (CiberSegurança)
 
