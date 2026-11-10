@@ -7,7 +7,31 @@
 **Dossiê Escolhido:** Dossiê 7 - Verificação de Idade e o ECA Digital.  
 ------------------------------------------------------------------------
 **Recorte do Problema:** Verificação de idade em plataformas de jogos online e ambientes de comunicação interativa por voz e texto, com foco em comunidades virtuais semelhantes ao Discord e servidores de jogos multiplayer. Esses ambientes são os que ampliam os riscos para menores, como a possibilidade de interação com desconhecidos, a existência de servidores públicos, a comunicação em tempo real por voz e texto, as dificuldades de fiscalização de comunidades privadas e a exposição de crianças e adolescentes a contatos e conteúdos inadequados.  
+9. Capítulos Individuais
 
+9.1 Capítulo Individual — Matheus Souza Lima (Redes)
+
+Papel no Projeto: Redes & Comunicação de Dados
+
+No desenvolvimento da nossa solução de verificação de idade e moderação (Dossiê 7), meu foco principal foi a área de Redes, com atenção à comunicação, integração e troca de informações entre os diferentes componentes do sistema.
+
+Minha contribuição esteve relacionada ao entendimento de como os dados são transmitidos, compartilhados e recebidos, buscando garantir uma comunicação eficiente e organizada entre os usuários e a plataforma. Também considerei a importância da conectividade e da segurança durante a transmissão das informações, evitando falhas de comunicação e possíveis vulnerabilidades.
+
+Como o sistema envolve o tratamento de informações de crianças, adolescentes e responsáveis, é fundamental que a troca de dados aconteça de maneira confiável, protegida e eficiente, contribuindo para o funcionamento adequado da solução.
+
+Plano de Desenvolvimento Profissional (Metas SMART)
+
+Para continuar evoluindo após as entregas do projeto e ampliar minhas competências na área de Redes, estabeleci um plano de desenvolvimento profissional baseado na metodologia SMART, com objetivos específicos, mensuráveis e prazos definidos para alcançar uma evolução técnica e profissional.
+
+Específica (S): Aprofundar meus conhecimentos na área de Redes, estudando conceitos de comunicação de dados, protocolos de comunicação, conectividade, integração entre sistemas e segurança na transmissão de informações. Também pretendo desenvolver conhecimentos sobre como diferentes sistemas se comunicam e compartilham dados de maneira eficiente.
+
+Mensurável (M): Concluir pelo menos 3 cursos relacionados à área de Redes, estudar os principais protocolos de comunicação, como TCP/IP, HTTP e DNS, e desenvolver 1 projeto prático que demonstre a comunicação e a troca de informações entre diferentes sistemas. O progresso será acompanhado por meio da conclusão dos cursos e da documentação do projeto.
+
+Atingível (A): Dedicar aproximadamente 5 horas semanais aos estudos, utilizando cursos online, materiais acadêmicos, videoaulas e exercícios práticos. A rotina será organizada para permitir o aprendizado gradual dos conteúdos, começando pelos conceitos fundamentais e avançando para aplicações práticas.
+
+Relevante (R): Esse desenvolvimento é importante para minha formação acadêmica e profissional, pois o conhecimento em Redes é essencial para compreender como as informações circulam entre sistemas e dispositivos. Além disso, o domínio desses conceitos poderá ampliar minhas oportunidades no mercado de Tecnologia da Informação, principalmente em áreas relacionadas à infraestrutura, comunicação de dados, integração de sistemas e segurança da informação.
+
+Temporal (T): Estabelecer o prazo de 6 meses para concluir os três cursos, aprofundar os estudos sobre os protocolos de comunicação e desenvolver o projeto prático. Ao final desse período, pretendo ter adquirido uma base de conhecimentos mais sólida na área de Redes e estar preparado para aplicar esses conhecimentos em projetos acadêmicos e profissionais.
 **Integrantes:**
     
     Gabriel da Silva Cesário - RGM: 47784105 | Área: Ciência de Dados | GitHub: https://github.com/gabrielsilce
