@@ -7,31 +7,7 @@
 **Dossiê Escolhido:** Dossiê 7 - Verificação de Idade e o ECA Digital.  
 ------------------------------------------------------------------------
 **Recorte do Problema:** Verificação de idade em plataformas de jogos online e ambientes de comunicação interativa por voz e texto, com foco em comunidades virtuais semelhantes ao Discord e servidores de jogos multiplayer. Esses ambientes são os que ampliam os riscos para menores, como a possibilidade de interação com desconhecidos, a existência de servidores públicos, a comunicação em tempo real por voz e texto, as dificuldades de fiscalização de comunidades privadas e a exposição de crianças e adolescentes a contatos e conteúdos inadequados.  
-9. Capítulos Individuais
 
-9.1 Capítulo Individual — Matheus Souza Lima (Redes)
-
-Papel no Projeto: Redes & Comunicação de Dados
-
-No desenvolvimento da nossa solução de verificação de idade e moderação (Dossiê 7), meu foco principal foi a área de Redes, com atenção à comunicação, integração e troca de informações entre os diferentes componentes do sistema.
-
-Minha contribuição esteve relacionada ao entendimento de como os dados são transmitidos, compartilhados e recebidos, buscando garantir uma comunicação eficiente e organizada entre os usuários e a plataforma. Também considerei a importância da conectividade e da segurança durante a transmissão das informações, evitando falhas de comunicação e possíveis vulnerabilidades.
-
-Como o sistema envolve o tratamento de informações de crianças, adolescentes e responsáveis, é fundamental que a troca de dados aconteça de maneira confiável, protegida e eficiente, contribuindo para o funcionamento adequado da solução.
-
-Plano de Desenvolvimento Profissional (Metas SMART)
-
-Para continuar evoluindo após as entregas do projeto e ampliar minhas competências na área de Redes, estabeleci um plano de desenvolvimento profissional baseado na metodologia SMART, com objetivos específicos, mensuráveis e prazos definidos para alcançar uma evolução técnica e profissional.
-
-Específica (S): Aprofundar meus conhecimentos na área de Redes, estudando conceitos de comunicação de dados, protocolos de comunicação, conectividade, integração entre sistemas e segurança na transmissão de informações. Também pretendo desenvolver conhecimentos sobre como diferentes sistemas se comunicam e compartilham dados de maneira eficiente.
-
-Mensurável (M): Concluir pelo menos 3 cursos relacionados à área de Redes, estudar os principais protocolos de comunicação, como TCP/IP, HTTP e DNS, e desenvolver 1 projeto prático que demonstre a comunicação e a troca de informações entre diferentes sistemas. O progresso será acompanhado por meio da conclusão dos cursos e da documentação do projeto.
-
-Atingível (A): Dedicar aproximadamente 5 horas semanais aos estudos, utilizando cursos online, materiais acadêmicos, videoaulas e exercícios práticos. A rotina será organizada para permitir o aprendizado gradual dos conteúdos, começando pelos conceitos fundamentais e avançando para aplicações práticas.
-
-Relevante (R): Esse desenvolvimento é importante para minha formação acadêmica e profissional, pois o conhecimento em Redes é essencial para compreender como as informações circulam entre sistemas e dispositivos. Além disso, o domínio desses conceitos poderá ampliar minhas oportunidades no mercado de Tecnologia da Informação, principalmente em áreas relacionadas à infraestrutura, comunicação de dados, integração de sistemas e segurança da informação.
-
-Temporal (T): Estabelecer o prazo de 6 meses para concluir os três cursos, aprofundar os estudos sobre os protocolos de comunicação e desenvolver o projeto prático. Ao final desse período, pretendo ter adquirido uma base de conhecimentos mais sólida na área de Redes e estar preparado para aplicar esses conhecimentos em projetos acadêmicos e profissionais.
 **Integrantes:**
     
     Gabriel da Silva Cesário - RGM: 47784105 | Área: Ciência de Dados | GitHub: https://github.com/gabrielsilce
@@ -413,6 +389,8 @@ sensíveis de usuários.
 
 * **Feedback Mariana Calderari:** Demonstrou comprometimento com a proposta do projeto, contribuindo com a perspectiva da Ciência de Dados e sua relação com o monitoramento e a análise de informações. Sua área de atuação é importante para identificar padrões, acompanhar indicadores e auxiliar na avaliação da eficácia da solução, especialmente na identificação de possíveis comportamentos anômalos e na análise dos resultados. Na área de desenvolvimento, acredito que possa aprofundar seus conhecimentos em análise de dados, desenvolvimento de modelos de detecção de anomalias e avaliação de métricas, buscando transformar os dados gerados pelo sistema em informações úteis para aprimorar a segurança e a experiência dos usuários.
 
+* **Feedback Matheus Souza Lima:**
+
 * **Feedback Vitor Camilo de Santana:** O trabalho do Gabriel foi fundamental para o projeto, contribuindo para a prevenção de falhas no sistema e evitando possíveis preconceitos nos algoritmos, garantindo que a solução fosse justa e acessível para todos os usuários. Também é importante destacar sua preocupação com a confiabilidade dos modelos e com a responsabilidade no uso da inteligência artificial, aspectos essenciais para o sucesso da solução.
 
 ### 9.2 Capítulo Individual — Mariana Calderari (Engenharia de Dados)
@@ -436,6 +414,8 @@ descarte automático de informações.
 * **Feedback Gabriel da Silva Cesário:** A Mariana foi responsável pela arquitetura e estruturação dos fluxos de dados do sistema. Graças à organização dos fluxos em tempo real e ao uso inteligente do
 *  Redis com as políticas de TTL e descarte automático , garantiu ao sistema alta performance, baixa latência e rigorosa observância aos preceitos da LGPD.
 
+* **Feedback Matheus Souza Lima:**
+
 * **Feedback Vitor Camilo de Santana:** O papel exercido pela Mariana e sua liderança foram fundamentais para o projeto, principalmente na organização do fluxo de dados, contribuindo para a otimização dos processos e garantindo maior segurança das informações. Além disso, sua atuação foi importante para manter a qualidade e a eficiência no tratamento dos dados, proporcionando uma estrutura mais organizada e confiável para o funcionamento da solução.
 
 ### 9.3 Capítulo Individual — Vitor Camilo de Santana (CiberSegurança)
@@ -458,6 +438,38 @@ Outra responsabilidade importante é estabelecer diretrizes de conformidade com 
 * **Feedback Gabriel da Silva Cesário:** A atuação do Vitor foi determinante para a segurança e a conformidade jurídica da solução. A definição rigorosa das diretrizes de cibersegurança, a proteção avançada das APIs e a estrita observância à LGPD — com foco especial na proteção de crianças e adolescentes — garantiram a integridade, a confidencialidade e a confiabilidade de todo o fluxo de verificação de idade
 
 * **Feedback Mariana Calderari:** Demonstrou comprometimento na definição das estratégias de cibersegurança do projeto, contribuindo para a análise de riscos e para a elaboração dos mecanismos de proteção das informações dos usuários. Sua participação foi importante principalmente na abordagem de segurança das credenciais digitais, utilização de provas de conhecimento zero (zk-SNARKs), proteção das APIs e prevenção de ataques de repetição (Replay Attacks). Também considero positiva sua preocupação com a conformidade da solução em relação à LGPD e à proteção de crianças e adolescentes. Na sua área de desenvolvimento, acredito que possa aprofundar ainda mais os conhecimentos sobre implementação prática de mecanismos criptográficos e testes de vulnerabilidade, fortalecendo a capacidade de transformar as estratégias de segurança propostas em soluções tecnicamente aplicáveis.
+
+* **Feedback Matheus Souza Lima:**
+
+### 9.4 Capítulo Individual — Matheus Souza Lima (Redes)
+
+**Papel no Projeto:** Redes & Comunicação de Dados
+
+No desenvolvimento da nossa solução de verificação de idade e moderação (Dossiê 7), meu foco principal foi a área de Redes, com atenção à comunicação, integração e troca de informações entre os diferentes componentes do sistema.
+
+Minha contribuição esteve relacionada ao entendimento de como os dados são transmitidos, compartilhados e recebidos, buscando garantir uma comunicação eficiente e organizada entre os usuários e a plataforma. Também considerei a importância da conectividade e da segurança durante a transmissão das informações, evitando falhas de comunicação e possíveis vulnerabilidades.
+
+Como o sistema envolve o tratamento de informações de crianças, adolescentes e responsáveis, é fundamental que a troca de dados aconteça de maneira confiável, protegida e eficiente, contribuindo para o funcionamento adequado da solução.
+
+* **Plano de Desenvolvimento Profissional**(Metas SMART)
+
+Para continuar evoluindo após as entregas do projeto e ampliar minhas competências na área de Redes, estabeleci um plano de desenvolvimento profissional baseado na metodologia SMART, com objetivos específicos, mensuráveis e prazos definidos para alcançar uma evolução técnica e profissional.
+
+- **Específica (S):** Aprofundar meus conhecimentos na área de Redes, estudando conceitos de comunicação de dados, protocolos de comunicação, conectividade, integração entre sistemas e segurança na transmissão de informações. Também pretendo desenvolver conhecimentos sobre como diferentes sistemas se comunicam e compartilham dados de maneira eficiente.
+
+- **Mensurável (M):** Concluir pelo menos 3 cursos relacionados à área de Redes, estudar os principais protocolos de comunicação, como TCP/IP, HTTP e DNS, e desenvolver 1 projeto prático que demonstre a comunicação e a troca de informações entre diferentes sistemas. O progresso será acompanhado por meio da conclusão dos cursos e da documentação do projeto.
+
+- **Atingível (A):** Dedicar aproximadamente 5 horas semanais aos estudos, utilizando cursos online, materiais acadêmicos, videoaulas e exercícios práticos. A rotina será organizada para permitir o aprendizado gradual dos conteúdos, começando pelos conceitos fundamentais e avançando para aplicações práticas.
+
+- **Relevante (R):** Esse desenvolvimento é importante para minha formação acadêmica e profissional, pois o conhecimento em Redes é essencial para compreender como as informações circulam entre sistemas e dispositivos. Além disso, o domínio desses conceitos poderá ampliar minhas oportunidades no mercado de Tecnologia da Informação, principalmente em áreas relacionadas à infraestrutura, comunicação de dados, integração de sistemas e segurança da informação.
+
+- **Temporal (T):** Estabelecer o prazo de 6 meses para concluir os três cursos, aprofundar os estudos sobre os protocolos de comunicação e desenvolver o projeto prático. Ao final desse período, pretendo ter adquirido uma base de conhecimentos mais sólida na área de Redes e estar preparado para aplicar esses conhecimentos em projetos acadêmicos e profissionais.
+
+* **Feedback Gabriel da Silva Cesário:**
+
+* **Feedback Mariana Calderari:**
+
+* **Feedback Vitor Camilo de Santana:**
 
 ## 10. Referências
 
