@@ -411,8 +411,7 @@ descarte automático de informações.
 
 - **Temporal (T):** Concluir os cursos e desenvolver o projeto prático no prazo de 6 meses, utilizando os resultados como parte do meu portfólio profissional.
 
-* **Feedback Gabriel da Silva Cesário:** A Mariana foi responsável pela arquitetura e estruturação dos fluxos de dados do sistema. Graças à organização dos fluxos em tempo real e ao uso inteligente do
-*  Redis com as políticas de TTL e descarte automático , garantiu ao sistema alta performance, baixa latência e rigorosa observância aos preceitos da LGPD.
+* **Feedback Gabriel da Silva Cesário:** Papel no Projeto: Excelente atuação no desenho do fluxo de dados em tempo real para verificação de idade e consentimento parental, garantindo baixa latência e alta eficiência.   Conformidade e Segurança: Destaque para o rigor no gerenciamento do Redis com políticas de TTL e descarte automático (data purge), assegurando total alinhamento com a LGPD.   Metas Técnicas: Plano de desenvolvimento muito bem focado no aprofundamento em pipelines ETL/ELT, processamento em tempo real e serviços de nuvem AWS.   Execução e Entregáveis: Definição clara de metas mensuráveis, prevendo 2 cursos e a criação de um projeto prático no GitHub para consolidar o aprendizado.   Viabilidade: O planejamento de 5 horas semanais ao longo de 6 meses é extremamente coerente, garantindo constância e foco na construção de seu portfólio.   Conclusão: Parabéns pela visão estratégica e técnica, Mariana; seu plano fortalece sua carreira como Engenheira de Dados e agrega imenso valor à segurança e escalabilidade do projeto.  
 
 * **Feedback Matheus Souza Lima:**
 
@@ -463,7 +462,7 @@ Como o sistema envolve o tratamento de informações de crianças, adolescentes 
 
 - **Temporal (T):** Estabelecer o prazo de 6 meses para concluir os três cursos, aprofundar os estudos sobre os protocolos de comunicação e desenvolver o projeto prático. Ao final desse período, pretendo ter adquirido uma base de conhecimentos mais sólida na área de Redes e estar preparado para aplicar esses conhecimentos em projetos acadêmicos e profissionais.
 
-* **Feedback Gabriel da Silva Cesário:**
+* **Feedback Gabriel da Silva Cesário:** Papel no Projeto: Excelente contribuição na área de Redes e Comunicação de Dados, garantindo a integração eficiente entre os diferentes componentes do sistema.   Segurança na Transmissão: Demonstrou cuidado essencial com a conectividade e a segurança na transmissão de dados, prevenindo falhas e vulnerabilidades.   Tratamento de Dados Sensíveis: Atuação fundamental e responsável no fluxo de informações de crianças, adolescentes e responsáveis.   Metas de Desenvolvimento (Específica): Ótimo direcionamento para aprofundar conhecimentos em protocolos, conectividade e arquitetura de sistemas.   Metas Práticas (Mensurável): Planejamento claro de concluir três cursos na área (focando em TCP/IP, HTTP e DNS) e desenvolver um projeto prático demonstrando a troca de dados.   Viabilidade (Atingível): A rotina planejada de cerca de 5 horas semanais demonstra excelente organização para o aprendizado gradual.   Cronograma e Relevância (Temporal e Relevante): O prazo de 6 meses é adequado para consolidar competências essenciais que ampliarão significativamente suas oportunidades no mercado de TI.
 
 * **Feedback Mariana Calderari:**
 
