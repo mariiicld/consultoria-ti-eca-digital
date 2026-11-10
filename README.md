@@ -12,6 +12,7 @@
     
     Gabriel da Silva Cesário - RGM: 47784105 | Área: Ciência de Dados | GitHub: https://github.com/gabrielsilce
     Mariana Calderari - RGM: 48100072 | Área: Engenharia de Dados | GitHub: https://github.com/mariiicld  
+    Matheus Souza Lima - RGM: | Área: Redes | GitHub: https://github.com/
     Vitor Camilo de Santana - RGM: 47807458 | Área: CiberSegurança | GitHub: https://github.com/vitorcamilodesantana-del 
 
 ## 2. Análise do Problema  
@@ -399,8 +400,7 @@ sensíveis de usuários.
 
 * **Plano de Desenvolvimento Profissional** (Metas SMART):
 
-- **Específica (S):** Aprofundar meus conhecimentos em Engenharia de Dados, com foco no desenvolvimento de pipelines ETL/ELT, processamento de dados em tempo real, banco de dados Redis e serviços de computação em nuvem,
--  especialmente AWS.
+- **Específica (S):** Aprofundar meus conhecimentos em Engenharia de Dados, com foco no desenvolvimento de pipelines ETL/ELT, processamento de dados em tempo real, banco de dados Redis e serviços de computação em nuvem, especialmente AWS.
 
 - **Mensurável (M):** Concluir pelo menos 2 cursos relacionados à área e desenvolver 1 projeto prático no GitHub envolvendo ingestão, processamento e armazenamento temporário de dados, com aplicação de políticas TTL e
 descarte automático de informações.
@@ -452,8 +452,6 @@ Minha contribuição esteve relacionada ao entendimento de como os dados são tr
 Como o sistema envolve o tratamento de informações de crianças, adolescentes e responsáveis, é fundamental que a troca de dados aconteça de maneira confiável, protegida e eficiente, contribuindo para o funcionamento adequado da solução.
 
 * **Plano de Desenvolvimento Profissional**(Metas SMART)
-
-Para continuar evoluindo após as entregas do projeto e ampliar minhas competências na área de Redes, estabeleci um plano de desenvolvimento profissional baseado na metodologia SMART, com objetivos específicos, mensuráveis e prazos definidos para alcançar uma evolução técnica e profissional.
 
 - **Específica (S):** Aprofundar meus conhecimentos na área de Redes, estudando conceitos de comunicação de dados, protocolos de comunicação, conectividade, integração entre sistemas e segurança na transmissão de informações. Também pretendo desenvolver conhecimentos sobre como diferentes sistemas se comunicam e compartilham dados de maneira eficiente.
 
