@@ -12,7 +12,7 @@
     
     Gabriel da Silva Cesário - RGM: 47784105 | Área: Ciência de Dados | GitHub: https://github.com/gabrielsilce
     Mariana Calderari - RGM: 48100072 | Área: Engenharia de Dados | GitHub: https://github.com/mariiicld  
-    Matheus Souza Lima - RGM: | Área: Redes | GitHub: https://github.com/
+    Matheus Souza Lima - RGM: 47764236| Área: Redes | GitHub: https://github.com/Matheus-Souza249
     Vitor Camilo de Santana - RGM: 47807458 | Área: CiberSegurança | GitHub: https://github.com/vitorcamilodesantana-del 
 
 ## 2. Análise do Problema  
@@ -344,7 +344,7 @@ A avaliação do impacto do GuardianGate-ZKP é orientada por indicadores-chave 
     * **Meta Projetada:** Zero incidentes confirmados de vazamento de dados civis de menores ou responsáveis na infraestrutura da plataforma durante os ciclos de operação monitorada.
     * **Justificativa e Monitoramento:** O indicador é sustentado pelo princípio de Privacy by Design, dado que a arquitetura não armazena repositórios centralizados de RG, CPF, fotos ou documentos. A meta não é apresentada como uma garantia absoluta infalível de software, mas como um objetivo de controle auditável, respaldado por varreduras de vulnerabilidade contínuas, programas de recompensa por falhas (bug bounty), testes anuais de intrusão (Pentest) por auditorias independentes e monitoramento de logs de segurança.
 
-##### 7.2 Escuta dos Usuários e Plano de Contingência
+#### 7.2 Escuta dos Usuários e Plano de Contingência
 
 * **Plano de Escuta e Governança Participativa:**
    * **Pesquisas de Usabilidade e Satisfação:** Avaliação contínua da experiência de uso no Wallet App e nas interfaces integradas, medindo o índice de facilidade de aprovação e clareza do Painel Educativo.
@@ -418,7 +418,37 @@ Essas atividades têm como objetivo garantir que as informações sejam processa
 
 * **Feedback Vitor Camilo de Santana:** O papel exercido pela Mariana e sua liderança foram fundamentais para o projeto, principalmente na organização do fluxo de dados, contribuindo para a otimização dos processos e garantindo maior segurança das informações. Além disso, sua atuação foi importante para manter a qualidade e a eficiência no tratamento dos dados, proporcionando uma estrutura mais organizada e confiável para o funcionamento da solução.
 
-### 9.3 Capítulo Individual — Vitor Camilo de Santana (CiberSegurança)
+### 9.3 Capítulo Individual — Matheus Souza Lima (Redes)
+
+**Papel no Projeto:** Redes & Comunicação de Dados
+
+No desenvolvimento da nossa solução de verificação de idade e moderação (Dossiê 7), meu foco principal foi a área de Redes, com atenção à comunicação, integração e troca de informações entre os diferentes componentes do sistema.
+
+Minha contribuição esteve relacionada ao entendimento de como os dados são transmitidos, compartilhados e recebidos, buscando garantir uma comunicação eficiente e organizada entre os usuários e a plataforma. Também considerei a importância da conectividade e da segurança durante a transmissão das informações, evitando falhas de comunicação e possíveis vulnerabilidades.
+
+Como o sistema envolve o tratamento de informações de crianças, adolescentes e responsáveis, é fundamental que a troca de dados aconteça de maneira confiável, protegida e eficiente, contribuindo para o funcionamento adequado da solução.
+
+* **Plano de Desenvolvimento Profissional**(Metas SMART)
+
+- **Específica (S):** Aprofundar meus conhecimentos na área de Redes, estudando conceitos de comunicação de dados, protocolos de comunicação, conectividade, integração entre sistemas e segurança na transmissão de informações. Também pretendo desenvolver conhecimentos sobre como diferentes sistemas se comunicam e compartilham dados de maneira eficiente.
+
+- **Mensurável (M):** Concluir pelo menos 3 cursos relacionados à área de Redes, estudar os principais protocolos de comunicação, como TCP/IP, HTTP e DNS, e desenvolver 1 projeto prático que demonstre a comunicação e a troca de informações entre diferentes sistemas. O progresso será acompanhado por meio da conclusão dos cursos e da documentação do projeto.
+
+- **Atingível (A):** Dedicar aproximadamente 5 horas semanais aos estudos, utilizando cursos online, materiais acadêmicos, videoaulas e exercícios práticos. A rotina será organizada para permitir o aprendizado gradual dos conteúdos, começando pelos conceitos fundamentais e avançando para aplicações práticas.
+
+- **Relevante (R):** Esse desenvolvimento é importante para minha formação acadêmica e profissional, pois o conhecimento em Redes é essencial para compreender como as informações circulam entre sistemas e dispositivos. Além disso, o domínio desses conceitos poderá ampliar minhas oportunidades no mercado de Tecnologia da Informação, principalmente em áreas relacionadas à infraestrutura, comunicação de dados, integração de sistemas e segurança da informação.
+
+- **Temporal (T):** Estabelecer o prazo de 6 meses para concluir os três cursos, aprofundar os estudos sobre os protocolos de comunicação e desenvolver o projeto prático. Ao final desse período, pretendo ter adquirido uma base de conhecimentos mais sólida na área de Redes e estar preparado para aplicar esses conhecimentos em projetos acadêmicos e profissionais.
+
+* **Feedback Gabriel da Silva Cesário:** Papel no Projeto: Excelente contribuição na área de Redes e Comunicação de Dados, garantindo a integração eficiente entre os diferentes componentes do sistema.   Segurança na Transmissão: Demonstrou cuidado essencial com a conectividade e a segurança na transmissão de dados, prevenindo falhas e vulnerabilidades.   Tratamento de Dados Sensíveis: Atuação fundamental e responsável no fluxo de informações de crianças, adolescentes e responsáveis.   Metas de Desenvolvimento (Específica): Ótimo direcionamento para aprofundar conhecimentos em protocolos, conectividade e arquitetura de sistemas.   Metas Práticas (Mensurável): Planejamento claro de concluir três cursos na área (focando em TCP/IP, HTTP e DNS) e desenvolver um projeto prático demonstrando a troca de dados.   Viabilidade (Atingível): A rotina planejada de cerca de 5 horas semanais demonstra excelente organização para o aprendizado gradual.   Cronograma e Relevância (Temporal e Relevante): O prazo de 6 meses é adequado para consolidar competências essenciais que ampliarão significativamente suas oportunidades no mercado de TI.
+
+* **Feedback Mariana Calderari:** Apresentou pontos muito positivos, principalmente pela forma como relaciona a área de Redes às necessidades da solução GuardianGate-ZKP. Destaco a preocupação em compreender a comunicação e a integração entre os diferentes componentes do sistema, demonstrando a importância de uma troca de informações eficiente e organizada. Outro ponto forte é a atenção à conectividade e à segurança durante a transmissão dos dados, especialmente considerando a sensibilidade das informações envolvidas no projeto.
+
+As metas SMART também estão bem elaboradas, pois apresentam objetivos claros, resultados mensuráveis e um planejamento realista de seis meses. A proposta de estudar protocolos importantes, como TCP/IP, HTTP e DNS, demonstra iniciativa em construir uma base técnica sólida. Além disso, a intenção de desenvolver um projeto prático é um diferencial, pois permite aplicar os conhecimentos adquiridos e fortalecer seu portfólio profissional.
+
+* **Feedback Vitor Camilo de Santana:*
+
+### 9.4 Capítulo Individual — Vitor Camilo de Santana (CiberSegurança)
 
 * **Papel no Projeto:** Responsável pela análise e definição das diretrizes de cibersegurança aplicadas à solução digital de verificação de idade, considerando os riscos relacionados ao tratamento de dados pessoais, especialmente aqueles pertencentes a crianças e adolescentes. Sua atuação envolve a elaboração de estratégias para proteger as informações e privacidade dos usuários, prevenir acessos não autorizados e garantir a integridade e a confidencialidade dos dados durante todo o processo de validação.
 Outra responsabilidade importante é estabelecer diretrizes de conformidade com a Lei Geral de Proteção de Dados (LGPD), considerando os princípios de finalidade, necessidade, transparência, segurança e melhor interesse da criança e do adolescente. Também, são consideradas medidas de proteção para as APIs utilizadas na comunicação entre os componentes da plataforma, incluindo autenticação, controle de acesso, criptografia e monitoramento de atividades suspeitas.
@@ -443,33 +473,6 @@ A cibersegurança não atua apenas na proteção técnica do sistema, mas també
 
 * **Feedback Matheus Souza Lima:**
 
-### 9.4 Capítulo Individual — Matheus Souza Lima (Redes)
-
-**Papel no Projeto:** Redes & Comunicação de Dados
-
-No desenvolvimento da nossa solução de verificação de idade e moderação (Dossiê 7), meu foco principal foi a área de Redes, com atenção à comunicação, integração e troca de informações entre os diferentes componentes do sistema.
-
-Minha contribuição esteve relacionada ao entendimento de como os dados são transmitidos, compartilhados e recebidos, buscando garantir uma comunicação eficiente e organizada entre os usuários e a plataforma. Também considerei a importância da conectividade e da segurança durante a transmissão das informações, evitando falhas de comunicação e possíveis vulnerabilidades.
-
-Como o sistema envolve o tratamento de informações de crianças, adolescentes e responsáveis, é fundamental que a troca de dados aconteça de maneira confiável, protegida e eficiente, contribuindo para o funcionamento adequado da solução.
-
-* **Plano de Desenvolvimento Profissional**(Metas SMART)
-
-- **Específica (S):** Aprofundar meus conhecimentos na área de Redes, estudando conceitos de comunicação de dados, protocolos de comunicação, conectividade, integração entre sistemas e segurança na transmissão de informações. Também pretendo desenvolver conhecimentos sobre como diferentes sistemas se comunicam e compartilham dados de maneira eficiente.
-
-- **Mensurável (M):** Concluir pelo menos 3 cursos relacionados à área de Redes, estudar os principais protocolos de comunicação, como TCP/IP, HTTP e DNS, e desenvolver 1 projeto prático que demonstre a comunicação e a troca de informações entre diferentes sistemas. O progresso será acompanhado por meio da conclusão dos cursos e da documentação do projeto.
-
-- **Atingível (A):** Dedicar aproximadamente 5 horas semanais aos estudos, utilizando cursos online, materiais acadêmicos, videoaulas e exercícios práticos. A rotina será organizada para permitir o aprendizado gradual dos conteúdos, começando pelos conceitos fundamentais e avançando para aplicações práticas.
-
-- **Relevante (R):** Esse desenvolvimento é importante para minha formação acadêmica e profissional, pois o conhecimento em Redes é essencial para compreender como as informações circulam entre sistemas e dispositivos. Além disso, o domínio desses conceitos poderá ampliar minhas oportunidades no mercado de Tecnologia da Informação, principalmente em áreas relacionadas à infraestrutura, comunicação de dados, integração de sistemas e segurança da informação.
-
-- **Temporal (T):** Estabelecer o prazo de 6 meses para concluir os três cursos, aprofundar os estudos sobre os protocolos de comunicação e desenvolver o projeto prático. Ao final desse período, pretendo ter adquirido uma base de conhecimentos mais sólida na área de Redes e estar preparado para aplicar esses conhecimentos em projetos acadêmicos e profissionais.
-
-* **Feedback Gabriel da Silva Cesário:** Papel no Projeto: Excelente contribuição na área de Redes e Comunicação de Dados, garantindo a integração eficiente entre os diferentes componentes do sistema.   Segurança na Transmissão: Demonstrou cuidado essencial com a conectividade e a segurança na transmissão de dados, prevenindo falhas e vulnerabilidades.   Tratamento de Dados Sensíveis: Atuação fundamental e responsável no fluxo de informações de crianças, adolescentes e responsáveis.   Metas de Desenvolvimento (Específica): Ótimo direcionamento para aprofundar conhecimentos em protocolos, conectividade e arquitetura de sistemas.   Metas Práticas (Mensurável): Planejamento claro de concluir três cursos na área (focando em TCP/IP, HTTP e DNS) e desenvolver um projeto prático demonstrando a troca de dados.   Viabilidade (Atingível): A rotina planejada de cerca de 5 horas semanais demonstra excelente organização para o aprendizado gradual.   Cronograma e Relevância (Temporal e Relevante): O prazo de 6 meses é adequado para consolidar competências essenciais que ampliarão significativamente suas oportunidades no mercado de TI.
-
-* **Feedback Mariana Calderari:**
-
-* **Feedback Vitor Camilo de Santana:**
 
 ## 10. Referências
 
