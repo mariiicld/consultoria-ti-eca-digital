@@ -12,7 +12,7 @@
     
     Gabriel da Silva Cesário - RGM: 47784105 | Área: Ciência de Dados | GitHub: https://github.com/gabrielsilce
     Mariana Calderari - RGM: 48100072 | Área: Engenharia de Dados | GitHub: https://github.com/mariiicld  
-    Matheus Souza Lima - RGM: 47764236| Área: Redes | GitHub: https://github.com/Matheus-Souza249
+    Matheus Souza Lima - RGM: 47764236 | Área: Redes | GitHub: https://github.com/Matheus-Souza249
     Vitor Camilo de Santana - RGM: 47807458 | Área: CiberSegurança | GitHub: https://github.com/vitorcamilodesantana-del 
 
 ## 2. Análise do Problema  
@@ -39,7 +39,7 @@ Por outro lado, a utilização de documentos pessoais e dados biométricos para 
 1. **Verificação por Cartão de Crédito:** Utiliza a existência de um cartão bancário como indicativo de maioridade, mas apresenta limitações de acessibilidade e confiabilidade. Muitos adolescentes não possuem cartões próprios, especialmente aqueles em situação de vulnerabilidade socioeconômica. Além disso, o uso de cartões pertencentes aos pais ou responsáveis pode permitir que menores contornem a restrição, sem que a plataforma consiga confirmar quem está realmente utilizando o serviço.  
 2. **Biometria Facial Isolada:** A utilização do reconhecimento facial pode facilitar a estimativa ou confirmação da idade, mas não garante, por si só, que a pessoa verificada seja a mesma que utilizará a conta. Um menor pode solicitar que um adulto realize a validação em seu lugar, utilizando o resultado para obter acesso à plataforma. Outro problema envolve a privacidade: imagens faciais e informações biométricas exigem proteção rigorosa, pois seu armazenamento e tratamento inadequados podem resultar em exposição de dados sensíveis e riscos permanentes aos usuários.  
   
-## 3. Proposta Técnologica  
+## 3. Proposta Tecnológica
 ### Proposta Tecnológica e Arquitetura  
 **Nome da solução:** GuardianGate-ZKP, plataforma federada de consentimento parental e verificação de idade com privacidade por design.  
 **Resumo Executivo:** O GuardianGate-ZKP é uma proposta de arquitetura federada destinada a verificar a faixa etária de usuários e validar autorizações de responsáveis legais por meio de credenciais digitais verificáveis (Verifiable Credentials) e Provas de Conhecimento Zero (Zero-Knowledge Proofs – ZKP). A solução foi concebida para atuar como um middleware de interoperabilidade entre autoridades emissoras de identidade, carteiras digitais de usuários e plataformas consumidoras (como o Discord ou servidores de jogos multiplayer).
@@ -68,11 +68,11 @@ Para superar os desafios de segurança e privacidade, a arquitetura padroniza o 
 
 2. O usuário seleciona a opção "Provar Maioridade" e acessa a solicitação de verificação por QR Code ou link seguro.
 
-3. A carteira digital processa a solicitação OpenID4VP, valida localmente a assinatura do emissor e gera uma prova zk-SNARK demonstrando que idade é maior ou igual à 18 em relação à data atual, sem revelar a data de nascimento completa ou o documento de origem.
+3. A carteira digital processa a solicitação OpenID4VP, valida localmente a assinatura do emissor e gera uma prova zk-SNARK demonstrando que a idade é maior ou igual à 18 em relação à data atual, sem revelar a data de nascimento completa ou o documento de origem.
 
 4. O verificador GuardianGate valida a prova criptográfica, verifica se o emissor é confiável, checa o status de revogação da credencial na lista do emissor e valida o nonce da transação para evitar ataques de repetição.
 
-5. Após a validação, a plataforma recebe um atestado de maioridade e aplica as permissões correspondentes.erificador. A plataforma libera o acesso aos espaços de adultos.
+5. Após a validação, a plataforma recebe um atestado de maioridade e aplica as permissões correspondentes. A plataforma libera o acesso aos espaços destinados a adultos.
 
 **3. Fluxo de Autorização Parental (Menores de 17 Anos) e Aplicação do Art. 21 do ECA Digital**
 
@@ -260,7 +260,7 @@ A solução resolve o gargalo de privacidade do ECA Digital (Lei 15.211/2025) e 
 
 ##### Princípios da LGPD Aplicados à Arquitetura
 
-1. **Princípio do Melhor Interesse do Menor (Art. 14, *caput*):** Todas as escolhas tecnológicas visam assegurar o desenvolvimento saudável e a proteção contra abordagens inadequada em ambientes virtuais, equilibrando a tutela parental com a privacidade digital do adolescente.
+1. **Princípio do Melhor Interesse do Menor (Art. 14, *caput*):** Todas as escolhas tecnológicas visam assegurar o desenvolvimento saudável e a proteção contra abordagens inadequadas em ambientes virtuais, equilibrando a tutela parental com a privacidade digital do adolescente.
 
 2. **Minimização e Necessidade (Art. 6º, III):** A plataforma consumidora recebe apenas atestados booleanos e escopos de permissão necessários à prestação do serviço interativo, eliminando o compartilhamento de documentos ou dados de qualificação civil.
 
@@ -294,7 +294,7 @@ Para garantir que nenhum grupo seja marginalizado no cumprimento das exigências
     * **Sistemas de Fallback Sem Biometria:** Para aparelhos sem leitor de impressão digital/FaceID, permite-se o desbloqueio local da *wallet* via PIN numérico forte vinculado ao hardware seguro (Keystore/Keychain).  
     * **PWA / Aplicativo Leve (*Lite*):** Desenvolvimento de uma versão otimizada do aplicativo, com consumo de dados reduzido e compatibilidade com redes 2G/3G. O sistema poderá armazenar temporariamente a credencial e os dados necessários no dispositivo para permitir o acesso às informações já carregadas durante períodos sem conexão. Entretanto, a validação da autorização será realizada online, sempre que necessária, para verificar a autenticidade da prova, a validade da credencial, possíveis revogações, a expiração do token e a proteção contra reutilização de nonces. Caso não exista conexão, operações que dependam dessa validação ficarão pendentes até o restabelecimento da internet, sem liberar indevidamente o acesso.  
 * **Inclusão Presencial e Atendimento Físico:**  
-    * **Postos de Validação Auxiliada:** Para responsáveis sem smartphone ou conta no Gov.br, firma-se parceria com postos de atendimento público (ex.: Poupatempo, CRAS, escolas públicas) para emissão e validação presencial do vínculo de dependência e emissão de credenciais impressas em QR Code seguro/offline  
+    * **Postos de Validação Auxiliada:** Para responsáveis sem smartphone ou conta no Gov.br, firma-se parceria com postos de atendimento público (ex.: Poupatempo, CRAS, escolas públicas) para emissão e validação presencial do vínculo de dependência e emissão de credenciais impressas em QR Code seguro/offline.
     * **Credenciais Impressas em QR Code:** Possibilidade de emissão de credenciais impressas contendo QR Code com dados mínimos e assinatura digital verificável. Para reduzir riscos de cópia e reutilização, serão adotados mecanismos de validade limitada, identificação única, controle de utilização e consulta de revogação quando houver conexão. A assinatura digital permitirá verificar a autenticidade e detectar alterações no conteúdo, mas não impedirá, isoladamente, a cópia do código. Portanto, a validação offline terá limitações e não será considerada suficiente para operações que exijam confirmação de revogação ou controle de uso em tempo real.
 
 ## 6. Sustentabilidade
@@ -444,11 +444,9 @@ Como o sistema envolve o tratamento de informações de crianças, adolescentes 
 
 * **Feedback Gabriel da Silva Cesário:** Papel no Projeto: Excelente contribuição na área de Redes e Comunicação de Dados, garantindo a integração eficiente entre os diferentes componentes do sistema.   Segurança na Transmissão: Demonstrou cuidado essencial com a conectividade e a segurança na transmissão de dados, prevenindo falhas e vulnerabilidades.   Tratamento de Dados Sensíveis: Atuação fundamental e responsável no fluxo de informações de crianças, adolescentes e responsáveis.   Metas de Desenvolvimento (Específica): Ótimo direcionamento para aprofundar conhecimentos em protocolos, conectividade e arquitetura de sistemas.   Metas Práticas (Mensurável): Planejamento claro de concluir três cursos na área (focando em TCP/IP, HTTP e DNS) e desenvolver um projeto prático demonstrando a troca de dados.   Viabilidade (Atingível): A rotina planejada de cerca de 5 horas semanais demonstra excelente organização para o aprendizado gradual.   Cronograma e Relevância (Temporal e Relevante): O prazo de 6 meses é adequado para consolidar competências essenciais que ampliarão significativamente suas oportunidades no mercado de TI.
 
-* **Feedback Mariana Calderari:** Apresentou pontos muito positivos, principalmente pela forma como relaciona a área de Redes às necessidades da solução GuardianGate-ZKP. Destaco a preocupação em compreender a comunicação e a integração entre os diferentes componentes do sistema, demonstrando a importância de uma troca de informações eficiente e organizada. Outro ponto forte é a atenção à conectividade e à segurança durante a transmissão dos dados, especialmente considerando a sensibilidade das informações envolvidas no projeto.As metas SMART também estão bem elaboradas, pois apresentam objetivos claros, resultados mensuráveis e um planejamento realista de seis meses. A proposta de estudar protocolos importantes, como TCP/IP, HTTP e DNS, demonstra iniciativa em construir uma base técnica sólida. Além disso, a intenção de desenvolver um projeto prático é um diferencial, pois permite aplicar os conhecimentos adquiridos e fortalecer seu portfólio profissional.
+* **Feedback Mariana Calderari:** Apresentou pontos muito positivos, principalmente pela forma como relaciona a área de Redes às necessidades da solução GuardianGate-ZKP. Destaco a preocupação em compreender a comunicação e a integração entre os diferentes componentes do sistema, demonstrando a importância de uma troca de informações eficiente e organizada. Outro ponto forte é a atenção à conectividade e à segurança durante a transmissão dos dados, especialmente considerando a sensibilidade das informações envolvidas no projeto. As metas SMART também estão bem elaboradas, pois apresentam objetivos claros, resultados mensuráveis e um planejamento realista de seis meses. A proposta de estudar protocolos importantes, como TCP/IP, HTTP e DNS, demonstra iniciativa em construir uma base técnica sólida. Além disso, a intenção de desenvolver um projeto prático é um diferencial, pois permite aplicar os conhecimentos adquiridos e fortalecer seu portfólio profissional.
 
-* **Feedback Vitor Camilo de Santana:** O trabalho desenvolvido pelo Matheus foi importante para o projeto, principalmente na área de Redes e Comunicação de Dados, contribuindo para a integração e comunicação entre os diferentes componentes da solução. Sua preocupação com a estabilidade da conexão, eficiência na transmissão das informações e segurança durante a troca de dados demonstra a importância da infraestrutura de redes para o funcionamento adequado do GuardianGate-ZKP.
-
-Também merece destaque sua atenção à proteção das informações de crianças, adolescentes e responsáveis, considerando que a comunicação entre os sistemas precisa ocorrer de maneira segura e confiável. Como oportunidade de desenvolvimento, acredito que ele poderia aprofundar seus conhecimentos em protocolos de comunicação, como TCP/IP, HTTP e DNS, além de explorar mecanismos de criptografia e monitoramento de redes. Isso permitiria ampliar sua capacidade de identificar vulnerabilidades, prevenir falhas de comunicação e contribuir para uma infraestrutura cada vez mais segura, estável e eficiente.
+* **Feedback Vitor Camilo de Santana:** O trabalho desenvolvido pelo Matheus foi importante para o projeto, principalmente na área de Redes e Comunicação de Dados, contribuindo para a integração e comunicação entre os diferentes componentes da solução. Sua preocupação com a estabilidade da conexão, eficiência na transmissão das informações e segurança durante a troca de dados demonstra a importância da infraestrutura de redes para o funcionamento adequado do GuardianGate-ZKP. Também merece destaque sua atenção à proteção das informações de crianças, adolescentes e responsáveis, considerando que a comunicação entre os sistemas precisa ocorrer de maneira segura e confiável. Como oportunidade de desenvolvimento, acredito que ele poderia aprofundar seus conhecimentos em protocolos de comunicação, como TCP/IP, HTTP e DNS, além de explorar mecanismos de criptografia e monitoramento de redes. Isso permitiria ampliar sua capacidade de identificar vulnerabilidades, prevenir falhas de comunicação e contribuir para uma infraestrutura cada vez mais segura, estável e eficiente.
 
 ### 9.4 Capítulo Individual — Vitor Camilo de Santana (CiberSegurança)
 
@@ -498,7 +496,6 @@ INTERNATIONAL TELECOMMUNICATION UNION (ITU-T). Recommendation X.1285: OpenID Con
 9. WORLD WIDE WEB CONSORTIUM (W3C). Verifiable Credentials Data Model v2.0. W3C Recommendation, 15 maio 2025. Disponível em: https://www.w3.org/TR/vc-data-model-2.0/. Acesso em: 2 nov. 2026. 
 
 WORLD WIDE WEB CONSORTIUM (W3C). Decentralized Identifiers (DIDs) v1.1. Candidate Recommendation Snapshot, 5 mar. 2026. Disponível em: https://www.w3.org/TR/did-1.1/. Acesso em: 8 nov. 2026. 
-W3C+1
 
 WORLD WIDE WEB CONSORTIUM (W3C). Bitstring Status List v1.0: Privacy-preserving status information for Verifiable Credentials. W3C Recommendation, 15 maio 2025. Disponível em: https://www.w3.org/TR/2025/REC-vc-bitstring-status-list-20250515/. Acesso em: 2 nov. 2026. 
 
@@ -518,8 +515,7 @@ RESCORLA, Eric. The Transport Layer Security (TLS) Protocol Version 1.3. RFC 984
 
 NATIONAL INSTITUTE OF STANDARDS AND TECHNOLOGY (NIST). Implementing a Zero Trust Architecture: High-Level Document. NIST SP 1800-35. 2025. Disponível em: https://doi.org/10.6028/NIST.SP.1800-35. Acesso em: 30 out. 2026. 
 
-REDIS LTD. EXPIRE. Redis Documentation. Disponível em: https://redis.io/docs/latest/commands/expire/. Acesso em: 4 nov. 2026. 
-Docs
+REDIS LTD. EXPIRE. Redis Documentation. Disponível em: https://redis.io/docs/latest/commands/expire/. Acesso em: 4 nov. 2026.
 
 WORLD WIDE WEB CONSORTIUM (W3C). Web Content Accessibility Guidelines (WCAG) 2.2. W3C Recommendation, atualização de 12 dez. 2024. Disponível em: https://www.w3.org/TR/WCAG22/. Acesso em: 1 nov. 2026. 
 W3C
